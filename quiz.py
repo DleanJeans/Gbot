@@ -6,6 +6,7 @@ letter_digit_sep = r'([0-9]+(\.[0-9]+)?)'
 sep_letter_digit = partial(re.sub, letter_digit_sep, r' \1 ')
 
 def process(text):
+	text = text.replace('”', QUOTE)
 	text = text.replace('\n\n', '\n')
 	text = text.rsplit('\n', 3)
 	# text[1:] = map(trim_non_alnum, text[1:])

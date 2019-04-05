@@ -1,14 +1,20 @@
 from PIL import ImageDraw
 
-BOX_HEIGHT = 380
-FRIENDS_WIDTH = 200
-FRIENDS_Y = 150
+image_scale = 0.5
+
+BOX_HEIGHT = 760
+FRIENDS_WIDTH = 400
+FRIENDS_Y = 300
 
 def preprocess(image):
-	rect = (0, image.height - BOX_HEIGHT, image.width, image.height)
+	box_height = BOX_HEIGHT * image_scale
+	friends_width = FRIENDS_WIDTH * image_scale
+	friends_y = FRIENDS_Y * image_scale
+
+	rect = (0, image.height - box_height, image.width, image.height)
 	image = image.crop(rect)
 
-	friends_pos = (image.width - FRIENDS_WIDTH, FRIENDS_Y)
+	friends_pos = (image.width - friends_width, friends_y)
 	draw = ImageDraw.Draw(image)
 	draw.rectangle((friends_pos, image.size), 'white')
 
