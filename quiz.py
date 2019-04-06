@@ -2,6 +2,8 @@ import json
 import re
 from functools import partial
 
+QUOTE = '"'
+
 letter_digit_sep = r'([0-9]+(\.[0-9]+)?)'
 sep_letter_digit = partial(re.sub, letter_digit_sep, r' \1 ')
 

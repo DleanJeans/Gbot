@@ -1,4 +1,5 @@
 import colorama
+import re
 
 from selenium import webdriver
 from colorama import Style, Back, Fore
@@ -18,6 +19,8 @@ NEWLINE = '\n'
 
 COLORAMA_TAGS = [Back.BLUE, Back.RED, Back.RESET, Style.BRIGHT, Style.NORMAL]
 
+titles_visible = True
+
 def init():
 	global driver, translator
 
@@ -30,12 +33,12 @@ def init():
 def translate(q):
 	return translator.translate(q).text
 
-def search(q):
-	""" Returns (plain_text, formatted_text)
+def search(q, answers):
+	""" Returns (plain, formatted)
 	"""
 	global driver
 
-	print('Google:', Back.GREEN + Fore.BLACK + q + Style.RESET_ALL + NEWLINE)
+	print('Google:', Back.GREEN + Fore.BLACK + q + Back.RESET + Fore.RESET + NEWLINE)
 	url = get_search_url(q)
 	driver.get(url)
 
@@ -44,18 +47,22 @@ def search(q):
 	titles = soup.find_all(H3, class_=CLASS_TITLE)
 	snippets = soup.find_all(SPAN, class_=CLASS_SNIPPET)
 
-	formatted_text = ''
+	formatted = ''
 	for title, snippet in zip(titles, snippets):
 		title = title.text
 		snippet = snippet.decode_contents().replace('<span class="f">', '').replace('</span>', '')
 		
-		formatted_text += Back.BLUE + title + Back.RESET + NEWLINE + colorama_em_tags(snippet) + NEWLINE*2
+		if titles_visible:
+			formatted += Back.BLUE + title + Back.RESET + NEWLINE 
+		formatted += colorama_em_tags(snippet) + NEWLINE*2
 	
-	plain_text = formatted_text
+	plain = formatted
 	for tag in COLORAMA_TAGS:
-		plain_text = plain_text.replace(tag, '')
+		plain = plain.replace(tag, '')
 	
-	return plain_text, formatted_text
+	formatted = color_keywords(formatted, answers)
+
+	return plain, formatted
 
 def get_search_url(q):
 	return GOOGLE + quote(q)
@@ -70,5 +77,7 @@ def print_no_results(s):
 
 def color_keywords(s, keywords):
 	for kw in keywords:
-		s = s.replace(kw, Style.RESET_ALL + Back.GREEN + Fore.BLACK + kw + Style.RESET_ALL)
+		# case_insensitive = re.compile(re.escape(kw), re.IGNORECASE)
+		case_insensitive = re.compile(r'\b%s\b' % kw, re.IGNORECASE)
+		s = case_insensitive.sub(Style.RESET_ALL + Back.YELLOW + Fore.BLACK + kw + Style.RESET_ALL, s)
 	return s
