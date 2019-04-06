@@ -28,6 +28,11 @@ SPLIT = 'Split'
 NO_ANS = 'NoAns'
 ENG = 'Eng'
 
+oct4 = 179
+
+force_no_answer_search = False
+force_translate = False
+
 print('Call confetti.init() before running')
 def init():
 	gg.init()
@@ -40,7 +45,7 @@ def run_history(folder, image):
 	try:
 		image = Image.open('G:/Python/Confetti/history/%s/%s.png' % (folder, image))
 	except FileNotFoundError as e:
-		print(e)
+		print(e, NEWLINE)
 		return
 	run_image(image)
 
@@ -86,7 +91,7 @@ def answer(q):
 	points_dict[EXACT] = count.exact(plain, answers)
 	points_dict[SPLIT] = count.splitted(plain, answers)
 	
-	if not points.same_best_answer(points_dict):
+	if force_no_answer_search or not points.same_best_answer(points_dict):
 		no_ans_q = q.split('?')[0]
 		plain, formatted = gg.search(no_ans_q, answers)
 		to_be_printed.append(formatted)
@@ -94,8 +99,9 @@ def answer(q):
 		points_dict[NO_ANS+SPLIT] = count.splitted(plain, answers)
 
 	no_answers = sum(points_dict[EXACT]) == 0 and sum(points_dict[SPLIT]) == 0
+	answers_is_eng = any([gg.is_eng(a) for a in answers])
 
-	if no_answers:
+	if force_translate or answers_is_eng or no_answers:
 		print('Translating...')
 		eng_q = gg.translate(q)
 		translated_answers = [gg.translate(a) for a in answers]
@@ -105,7 +111,7 @@ def answer(q):
 
 		plain, formatted = gg.search(eng_q, answers)
 		to_be_printed.append(formatted)
-		points_dict[ENG] = count.splitted(plain, answers)
+		points_dict[ENG] = count.splitted(plain, translated_answers)
 
 	print_roundrobin_reversed(to_be_printed)
 
@@ -125,3 +131,5 @@ def print_roundrobin_reversed(to_be_printed):
 	combined_results = zip(*to_be_printed)
 	for r in combined_results:
 		print(r[0], NEWLINE)
+		if len(r) >= 2:
+			print(r[1], NEWLINE)

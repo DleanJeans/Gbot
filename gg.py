@@ -21,6 +21,9 @@ COLORAMA_TAGS = [Back.BLUE, Back.RED, Back.RESET, Style.BRIGHT, Style.NORMAL]
 
 titles_visible = True
 
+title_color = Back.BLUE
+answer_color = Fore.BLACK + Back.YELLOW
+
 def init():
 	global driver, translator
 
@@ -30,8 +33,11 @@ def init():
 	translator = Translator()
 	print('Done!')
 
+def is_eng(a):
+	return translator.detect(a).lang == 'en'
+
 def translate(q):
-	return translator.translate(q).text
+	return translator.translate(q, src='vi', dest='en').text
 
 def search(q, answers):
 	""" Returns (plain, formatted)
@@ -50,11 +56,13 @@ def search(q, answers):
 	formatted = ''
 	for title, snippet in zip(titles, snippets):
 		title = title.text
-		snippet = snippet.decode_contents().replace('<span class="f">', '').replace('</span>', '')
-		
+		snippet = snippet.decode_contents()
+		snippet = snippet.replace('<span class="f">', '').replace('</span>', '')
+		snippet = snippet.replace('<wbr>', '').replace('</wbr>', '')
+
 		if titles_visible:
-			formatted += Back.BLUE + title + Back.RESET + NEWLINE 
-		formatted += colorama_em_tags(snippet) + NEWLINE*2
+			formatted += title_color + title + Back.RESET + NEWLINE 
+		formatted += remove_em_tags(snippet) + NEWLINE*2
 	
 	plain = formatted
 	for tag in COLORAMA_TAGS:
@@ -67,9 +75,9 @@ def search(q, answers):
 def get_search_url(q):
 	return GOOGLE + quote(q)
 
-def colorama_em_tags(s):
-	s = s.replace('<em>', Style.BRIGHT + Back.RED)
-	s = s.replace('</em>', Style.NORMAL + Back.RESET)
+def remove_em_tags(s):
+	s = s.replace('<em>', '')
+	s = s.replace('</em>', '')
 	return s
 
 def print_no_results(s):
@@ -77,7 +85,6 @@ def print_no_results(s):
 
 def color_keywords(s, keywords):
 	for kw in keywords:
-		# case_insensitive = re.compile(re.escape(kw), re.IGNORECASE)
 		case_insensitive = re.compile(r'\b%s\b' % kw, re.IGNORECASE)
-		s = case_insensitive.sub(Style.RESET_ALL + Back.YELLOW + Fore.BLACK + kw + Style.RESET_ALL, s)
+		s = case_insensitive.sub(answer_color + kw + Back.RESET + Fore.RESET, s)
 	return s

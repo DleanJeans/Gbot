@@ -9,6 +9,8 @@ EXACT = 'Exact'
 SPLIT = 'Split'
 QUOTE = '@'
 
+best_color = Back.YELLOW
+
 def same_best_answer(points_dict):
 	exact_max_index = max_index(points_dict[EXACT])
 	split_max_index = max_index(points_dict[SPLIT])
@@ -22,7 +24,7 @@ def color_best(points_dict):
 	for name, points in points_dict.items():
 		indices = max_indices(points)
 		for i in indices:
-			points_dict[name][i] = Back.GREEN + Fore.BLACK + str(points[i]) + Back.RESET + Fore.RESET
+			points_dict[name][i] = best_color + Fore.BLACK + str(points[i]) + Back.RESET + Fore.RESET
 	return points_dict
 
 def max_indices(points):
