@@ -7,6 +7,10 @@ def add(image):
 	global images
 	images.append(image)
 
+def clear():
+	global images
+	images = []
+
 def save(name):
 	global images
 	for i, image in enumerate(images):

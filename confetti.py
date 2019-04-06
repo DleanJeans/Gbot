@@ -8,6 +8,7 @@ import quiz
 import history
 import count
 import points
+import os
 
 from tabulate import tabulate
 from colorama import Back, Fore
@@ -31,8 +32,9 @@ print('Call confetti.init() before running')
 def init():
 	gg.init()
 
-oct4 = 179
-image_history = []
+def clear():
+	history.clear()
+	_ = os.system('cls')
 
 def run_history(folder, image):
 	try:
