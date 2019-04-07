@@ -6,6 +6,7 @@ from colorama import Style, Back, Fore
 from urllib.parse import quote
 from bs4 import BeautifulSoup
 from googletrans import Translator
+from underthesea import ner
 
 GOOGLE = 'https://www.google.com/search?q='
 
@@ -84,7 +85,14 @@ def print_no_results(s):
 	print(Back.RED, 'No results found! ', s, Back.RESET, sep='')
 
 def color_keywords(s, keywords):
-	for kw in keywords:
+	def color(kw):
+		nonlocal s
 		case_insensitive = re.compile(r'\b%s\b' % kw, re.IGNORECASE)
 		s = case_insensitive.sub(answer_color + kw + Back.RESET + Fore.RESET, s)
+
+	for kw in keywords:
+		color(kw)
+		for word in ner(kw):
+			if word[1] == 'Np':
+				color(word[0])
 	return s
