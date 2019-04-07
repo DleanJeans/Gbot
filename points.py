@@ -12,13 +12,10 @@ QUOTE = '@'
 best_color = Back.YELLOW
 
 def same_best_answer(points_dict):
-	exact_max_index = max_index(points_dict[EXACT])
-	split_max_index = max_index(points_dict[SPLIT])
+	exact_max_index = max_indices(points_dict[EXACT])
+	split_max_index = max_indices(points_dict[SPLIT])
 
 	return exact_max_index == split_max_index
-
-def max_index(points):
-	return points.index(max(points))
 
 def color_best(points_dict):
 	for name, points in points_dict.items():
