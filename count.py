@@ -3,7 +3,10 @@ from itertools import tee
 NEWLINE = '\n'
 
 def exact(text, answers):
-	return [text.count(a) for a in answers]
+	points = [text.count(a) for a in answers]
+	if sum(points) == 0:
+		points = [text.lower().count(a.lower()) for a in answers]
+	return points
 
 def splitted(text, answers):
 	answers = trim_common_words(answers)
