@@ -18,4 +18,4 @@ def preprocess(image):
 	draw = ImageDraw.Draw(image)
 	draw.rectangle((friends_pos, image.size), 'white')
 
-	return image
+	return image.convert('L')

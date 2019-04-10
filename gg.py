@@ -9,6 +9,8 @@ from googletrans import Translator
 from underthesea import ner
 
 GOOGLE = 'https://www.google.com/search?q='
+OVERRIDE_USERAGENT = 'general.useragent.override'
+USERAGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'
 
 H3 = 'h3'
 SPAN = 'span'
@@ -29,7 +31,9 @@ def init():
 	global driver, translator
 
 	print('Opening Firefox...')
-	driver = webdriver.Firefox()
+	profile = webdriver.FirefoxProfile()
+	profile.set_preference(OVERRIDE_USERAGENT, USERAGENT)
+	driver = webdriver.Firefox(profile)
 	colorama.init()
 	translator = Translator()
 	print('Done!')
@@ -41,8 +45,6 @@ def translate(q):
 	return translator.translate(q, src='vi', dest='en').text
 
 def search(q, answers):
-	""" Returns (plain, formatted)
-	"""
 	global driver
 
 	print('Google:', Back.GREEN + Fore.BLACK + q + Back.RESET + Fore.RESET + NEWLINE)

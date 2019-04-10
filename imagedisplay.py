@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
-def show(image, title='Image'):
+def show(image, title='Image', cmap=None):
 	fig = plt.figure()
 	fig.canvas.set_window_title(title)
-	plt.imshow(image)
+	plt.imshow(image, cmap=cmap)
 	plt.show()

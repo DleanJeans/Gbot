@@ -2,9 +2,7 @@ print('Loading...')
 
 import screenstream
 import gg
-import screen
 import ocr
-import quiz
 import history
 import count
 import points
@@ -12,8 +10,8 @@ import os
 
 from tabulate import tabulate
 from colorama import Back, Fore
-
 from PIL import Image
+import importlib
 
 print('Done!')
 
@@ -30,20 +28,52 @@ ENG = 'Eng'
 
 oct4 = 179
 
-force_no_answer_search = False
+force_no_answer_search = True
 force_translate = False
 
-print('Call confetti.init() before running')
-def init():
+CUSTOM_MODULES = [
+	'screen',
+	'quiz',
+	'config'
+]
+
+print('Call gbot.init(profile, octet4) before running', NEWLINE)
+def init(profile, octet4):
+	global oct4
+	oct4 = octet4
+	load_profile(profile)
 	gg.init()
+
+def get_profile(profile):
+	profile = {
+		'mb': 'masterbrain',
+		'cft': 'confetti'
+	}.get(profile, profile)
+	return profile
+
+def load_profile(profile):
+	profile = get_profile(profile)
+
+	for module_name in CUSTOM_MODULES:
+		path = f'{profile}.{module_name}'
+		module = importlib.import_module(path)
+		code = f'global {module_name}\n{module_name} = module'
+		exec(code)
+	
+	print(f'Profile \'{profile}\' loaded!', NEWLINE)
+
+def reload(module_name='gbot', profile=''):
+	module = importlib.import_module(module_name, profile)
+	importlib.reload(module)
+	print(f'Module \'{module_name}\' reloaded!', NEWLINE)
 
 def clear():
 	history.clear()
-	_ = os.system('cls')
+	os.system('cls')
 
-def run_history(folder, image):
+def run_history(profile, folder, image):
 	try:
-		image = Image.open('G:/Python/Confetti/history/%s/%s.png' % (folder, image))
+		image = Image.open(f'G:/Python/Confetti/{profile}/history/{folder}/{image}.png')
 	except FileNotFoundError as e:
 		print(e, NEWLINE)
 		return
@@ -51,7 +81,8 @@ def run_history(folder, image):
 
 def run_image(image):
 	print('OCR...')
-	text = ocr.read_image(image)
+	text = ocr.read_image(image, *config.ocr)
+	print(text)
 	text = quiz.process(text)
 	q = NEWLINE.join(text)
 	print(q, NEWLINE)
@@ -67,8 +98,9 @@ def run():
 
 	run_image(image)
 
-def save_history(name):
-	history.save(name)
+def save_history(profile, name):
+	profile = get_profile(profile)
+	history.save(profile, name)
 
 def answer(q):
 	translated = False
@@ -91,27 +123,29 @@ def answer(q):
 	points_dict[EXACT] = count.exact(plain, answers)
 	points_dict[SPLIT] = count.splitted(plain, answers)
 	
-	if force_no_answer_search or not points.same_best_answer(points_dict):
+	if config.force_no_answer_search or not points.same_best_answer(points_dict):
 		no_ans_q = q.split('?')[0]
 		plain, formatted = gg.search(no_ans_q, answers)
 		to_be_printed.append(formatted)
 		points_dict[NO_ANS+EXACT] = count.exact(plain, answers)
 		points_dict[NO_ANS+SPLIT] = count.splitted(plain, answers)
 
-	no_answers = sum(points_dict[EXACT]) == 0 and sum(points_dict[SPLIT]) == 0
-	answers_is_eng = any([gg.is_eng(a) for a in answers])
+	if config.enable_translate:
+		if not config.force_translate:
+			no_matches = sum(points_dict[EXACT]) == 0 and sum(points_dict[SPLIT]) == 0
+			answers_in_eng = any([gg.is_eng(a) for a in answers])
 
-	if force_translate or answers_is_eng or no_answers:
-		print('Translating...')
-		eng_q = gg.translate(q)
-		translated_answers = [gg.translate(a) for a in answers]
-		print(eng_q)
-		print(NEWLINE.join(translated_answers))
-		print(NEWLINE)
+		if config.force_translate or answers_in_eng or no_matches:
+			print('Translating...')
+			eng_q = gg.translate(q)
+			translated_answers = [gg.translate(a) for a in answers]
+			print(eng_q)
+			print(NEWLINE.join(translated_answers))
+			print(NEWLINE)
 
-		plain, formatted = gg.search(eng_q, answers)
-		to_be_printed.append(formatted)
-		points_dict[ENG] = count.splitted(plain, translated_answers)
+			plain, formatted = gg.search(eng_q, answers)
+			to_be_printed.append(formatted)
+			points_dict[ENG] = count.splitted(plain, translated_answers)
 
 	print_roundrobin_reversed(to_be_printed)
 
