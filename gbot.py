@@ -133,7 +133,7 @@ def answer(q):
 	points_dict[SPLIT] = count.splitted(plain, answers)
 	
 	if config.force_no_answer_search or not points.same_best_answer(points_dict):
-		no_ans_q = q.split('?')[0]
+		no_ans_q = q.replace(' '.join(answers), '')
 		plain, formatted = gg.search(no_ans_q, answers)
 		to_be_printed.append(formatted)
 		points_dict[NO_ANS+EXACT] = count.exact(plain, answers)
