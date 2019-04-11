@@ -6,20 +6,19 @@ BOX_HEIGHT = 760
 FRIENDS_WIDTH = 400
 FRIENDS_Y = 300
 
-class ScreenTool:
-	def process(self, image):
-		box_height = BOX_HEIGHT * image_scale
-		friends_width = FRIENDS_WIDTH * image_scale
-		friends_y = FRIENDS_Y * image_scale
+def process(image):
+	box_height = BOX_HEIGHT * image_scale
+	friends_width = FRIENDS_WIDTH * image_scale
+	friends_y = FRIENDS_Y * image_scale
 
-		rect = (0, image.height - box_height, image.width, image.height)
-		image = image.crop(rect)
+	rect = (0, image.height - box_height, image.width, image.height)
+	image = image.crop(rect)
 
-		friends_pos = (image.width - friends_width, friends_y)
-		draw = ImageDraw.Draw(image)
-		draw.rectangle((friends_pos, image.size), 'white')
+	friends_pos = (image.width - friends_width, friends_y)
+	draw = ImageDraw.Draw(image)
+	draw.rectangle((friends_pos, image.size), 'white')
 
-		return image.convert('L')
-	
-	def post_process(self, image):
-		return image
+	return image.convert('L')
+
+def post_process(image):
+	return image

@@ -7,6 +7,7 @@ import history
 import count
 import points
 import os
+import profiles
 
 from tabulate import tabulate
 from colorama import Back, Fore
@@ -28,55 +29,32 @@ ENG = 'Eng'
 
 oct4 = 179
 
-force_no_answer_search = True
-force_translate = False
-
-CUSTOM_MODULES = [
-	'screen',
-	'quiz',
-	'config'
-]
-
-print('Call gbot.init(profile, octet4) before running', NEWLINE)
+print('Call gbot.init(profile, octet4) before running')
 def init(profile, octet4):
 	global oct4
 	oct4 = octet4
 	load_profile(profile)
 	gg.init()
 
-def get_profile(profile):
-	profile = {
-		'mb': 'masterbrain',
-		'cft': 'confetti'
-	}.get(profile, profile)
-	return profile
-
-def load_profile(profile):
-	global config, screen, quiz
-	profile = get_profile(profile)
-	
-	path = f'{profile}.config'
-	config = importlib.import_module(path)
-
-	screen = config.ScreenTool()
-	quiz = config.QuizTool()
-	points.lang = config.LangTool()
-	count.lang = config.LangTool()
-	
-	print(f'Profile \'{profile}\' loaded!', NEWLINE)
-
-def reload(module_name='gbot', profile=''):
-	module_name = module_name.replace('cft', 'confetti').replace('mb', 'masterbrain')
-	module = importlib.import_module(module_name, profile)
+def reload(module_name='gbot'):
+	module_name = profiles.get_name(module_name)
+	module = importlib.import_module(module_name)
 	importlib.reload(module)
+
+	if module_name in profiles.PROFILES.values():
+		profiles.reload()
+	
 	print(f'Module \'{module_name}\' reloaded!', NEWLINE)
+
+def load_profile(name):
+	profiles.load(name)
 
 def clear():
 	history.clear()
 	os.system('cls')
 
-def run_history(profile, folder, image):
-	profile = get_profile(profile)
+def run_history(folder, image):
+	profile = profiles.current_profile
 	dirname = os.path.dirname(__file__).replace('\\', '/')
 
 	try:
@@ -86,7 +64,6 @@ def run_history(profile, folder, image):
 		return
 	
 	image = screen.post_process(image)
-
 	run_image(image)
 
 def run_image(image):
@@ -109,7 +86,7 @@ def run():
 	run_image(image)
 
 def save_history(profile, name):
-	profile = get_profile(profile)
+	profile = profiles.get_name(profile)
 	history.save(profile, name)
 
 def answer(q):
