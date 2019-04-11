@@ -1,11 +1,11 @@
 from PIL import ImageDraw
 
-box_outline_color = 185
+box_outline_color = 184
 top_offset = 100
 skip = 400
 side_offset = 40
 step = 2
-diff_threshold = 3
+diff_threshold = 2
 
 class ScreenTool:
 	def process(self, image):
@@ -29,7 +29,7 @@ class ScreenTool:
 					break
 			
 			y += step
-
+		
 		rect = (side_offset, top, image.width - side_offset, bottom)
 		image = grayscale_image.crop(rect)
 
