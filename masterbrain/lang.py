@@ -4,13 +4,14 @@ import nltk
 https://stackoverflow.com/questions/15388831/what-are-all-possible-pos-tags-of-nltk
 '''
 trimmable = ['DT', 'IN']
+negatives = ['NOT', 'n\'t']
 
 class LangTool:
 	def __init__(self):
 		self.stemmer = nltk.PorterStemmer()
 
 	def is_negative(self, q):
-		return q.count('NOT') >= 1
+		return sum([q.count(n) for n in negatives]) >= 1
 	
 	def trim_answers(self, answers):
 		trimmed = []
