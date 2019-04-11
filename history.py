@@ -1,6 +1,6 @@
 import os
 
-DIRECTORY = os.path.dirname(__file__).replace('\\', '/') + '/%s/history'
+DIRECTORY = os.path.dirname(__file__).replace('\\', '/') + '/%s/history/'
 
 def add(image):
 	global images

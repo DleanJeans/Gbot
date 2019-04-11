@@ -52,13 +52,16 @@ def get_profile(profile):
 	return profile
 
 def load_profile(profile):
+	global config, screen, quiz
 	profile = get_profile(profile)
+	
+	path = f'{profile}.config'
+	config = importlib.import_module(path)
 
-	for module_name in CUSTOM_MODULES:
-		path = f'{profile}.{module_name}'
-		module = importlib.import_module(path)
-		code = f'global {module_name}\n{module_name} = module'
-		exec(code)
+	screen = config.ScreenTool()
+	quiz = config.QuizTool()
+	points.lang = config.LangTool()
+	count.lang = config.LangTool()
 	
 	print(f'Profile \'{profile}\' loaded!', NEWLINE)
 
@@ -72,8 +75,11 @@ def clear():
 	os.system('cls')
 
 def run_history(profile, folder, image):
+	profile = get_profile(profile)
+	dirname = os.path.dirname(__file__).replace('\\', '/')
+
 	try:
-		image = Image.open(f'G:/Python/Confetti/{profile}/history/{folder}/{image}.png')
+		image = Image.open(f'{dirname}/{profile}/history/{folder}/{image}.png')
 	except FileNotFoundError as e:
 		print(e, NEWLINE)
 		return
@@ -93,7 +99,7 @@ def run():
 	print('Capturing...')
 	ip = '192.168.1.' + str(oct4)
 	image = screenstream.capture(ip)
-	image = screen.preprocess(image)
+	image = screen.process(image)
 	history.add(image)
 
 	run_image(image)

@@ -1,6 +1,7 @@
 from itertools import tee
 
 NEWLINE = '\n'
+lang = None
 
 def exact(text, answers):
 	points = [text.count(a) for a in answers]
@@ -9,7 +10,8 @@ def exact(text, answers):
 	return points
 
 def splitted(text, answers):
-	answers = trim_common_words(answers)
+	if lang:
+		answers = lang.trim_answers(answers)
 	print('Trimmed:', NEWLINE, NEWLINE.join(answers), NEWLINE, sep='')
 
 	counts = []
@@ -20,18 +22,3 @@ def splitted(text, answers):
 		counts.append(count)
 	
 	return counts
-
-def trim_common_words(answers):
-	trimmed = answers[:]
-	for i in range(len(answers) - 1):
-		a = answers[i]
-		b = answers[i+1]
-
-		common = list(set(a.split()) & set(b.split()))
-		for c in common:
-			a = a.replace(c, '')
-			b = b.replace(c, '')
-		
-		trimmed[i] = a.strip()
-		trimmed[i + 1] = b.strip()
-	return trimmed

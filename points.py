@@ -3,13 +3,12 @@ from underthesea import pos_tag
 
 from colorama import Back, Fore
 
-quote_regex = r'"([^"]*)"'
-
 EXACT = 'Exact'
 SPLIT = 'Split'
-QUOTE = '@'
 
 best_color = Back.YELLOW
+
+lang = None
 
 def same_best_answer(points_dict):
 	exact_max_index = max_indices(points_dict[EXACT])
@@ -30,14 +29,7 @@ def max_indices(points):
 		indices = []
 	return indices
 
-NEGATIVE = ('không', 'R')
-
 def negate_if_negative(q, points_dict):
-	negative_exists = NEGATIVE in pos_tag(q.lower())
-	has_quotes = q.count(QUOTE) >= 2
-	quoted_texts = re.findall(quote_regex, q)
-	negative_in_quotes = any([NEGATIVE[0] in text for text in quoted_texts])
-
-	if negative_exists and not negative_in_quotes:
+	if lang and lang.is_negative(q):
 		points_dict = {name:[-n for n in points] for name, points in points_dict.items()}
 	return points_dict
