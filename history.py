@@ -4,7 +4,7 @@ DIRECTORY = os.path.dirname(__file__).replace('\\', '/') + '/%s/history/'
 
 def add(image):
 	global images
-	if images == None:
+	if not 'images' in globals():
 		images = []
 	images.append(image)
 
