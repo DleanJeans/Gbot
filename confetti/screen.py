@@ -20,3 +20,6 @@ class ScreenTool:
 		draw.rectangle((friends_pos, image.size), 'white')
 
 		return image.convert('L')
+	
+	def post_process(image):
+		return image

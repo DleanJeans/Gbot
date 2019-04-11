@@ -83,6 +83,9 @@ def run_history(profile, folder, image):
 	except FileNotFoundError as e:
 		print(e, NEWLINE)
 		return
+	
+	image = screen.post_process(image)
+
 	run_image(image)
 
 def run_image(image):

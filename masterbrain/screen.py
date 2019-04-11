@@ -34,3 +34,13 @@ class ScreenTool:
 		image = grayscale_image.crop(rect)
 
 		return image
+	
+	def post_process(image):
+		pixels = image.load()
+
+		for y in range(image.height):
+			for x in range(image.width):
+				if pixels[x, y] == 233:
+					pixels[x, y] = 255
+		
+		return image
