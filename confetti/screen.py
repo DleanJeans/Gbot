@@ -21,5 +21,5 @@ class ScreenTool:
 
 		return image.convert('L')
 	
-	def post_process(image):
+	def post_process(self, image):
 		return image

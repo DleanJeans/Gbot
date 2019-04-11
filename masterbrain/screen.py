@@ -35,7 +35,7 @@ class ScreenTool:
 
 		return image
 	
-	def post_process(image):
+	def post_process(self, image):
 		pixels = image.load()
 
 		for y in range(image.height):
