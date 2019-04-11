@@ -66,6 +66,7 @@ def load_profile(profile):
 	print(f'Profile \'{profile}\' loaded!', NEWLINE)
 
 def reload(module_name='gbot', profile=''):
+	module_name = module_name.replace('cft', 'confetti').replace('mb', 'masterbrain')
 	module = importlib.import_module(module_name, profile)
 	importlib.reload(module)
 	print(f'Module \'{module_name}\' reloaded!', NEWLINE)
@@ -172,7 +173,6 @@ def extract_answers(q):
 def print_roundrobin_reversed(to_be_printed):
 	to_be_printed = [text.split(NEWLINE*2)[::-1] for text in to_be_printed]
 	combined_results = zip(*to_be_printed)
-	for r in combined_results:
-		print(r[0], NEWLINE)
-		if len(r) >= 2:
-			print(r[1], NEWLINE)
+	for result in combined_results:
+		for text in result:
+			print(text, NEWLINE)
