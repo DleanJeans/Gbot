@@ -8,6 +8,7 @@ sep_letter_digit = partial(re.sub, letter_digit_sep, r' \1 ')
 
 def process(text):
 	text = text.replace('”', QUOTE)
+	text = text.replace(QUOTE, '')
 	text = text.replace('\n\n', '\n')
 	text = sep_letter_digit(text)
 	text = text.replace(' / ', '/')

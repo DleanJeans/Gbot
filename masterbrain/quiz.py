@@ -4,6 +4,7 @@ def process(text):
 	text = text.replace('\n\n', '\n')
 	text = text.lstrip('0123456789. ')
 	text = text.replace('”', QUOTE)
+	text = text.replace(QUOTE, '')
 	text = text.replace(' / ', '/')
 	text = text.rsplit('\n', 3)
 	text[1:] = [a.strip() for a in text[1:]]

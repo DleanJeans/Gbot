@@ -99,11 +99,6 @@ def answer(q):
 
 	points_dict = {}
 	plain, formatted = gg.search(q, answers)
-
-	if plain == '' and q.count(QUOTE) >= 2:
-		q = q.replace(QUOTE, '')
-		gg.print_no_results('Removing quotes...')
-		plain, formatted = gg.search(q, answers)
 	
 	to_be_printed = [formatted]
 
