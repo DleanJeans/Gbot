@@ -59,9 +59,7 @@ def search(q, answers):
 	formatted = ''
 	for title, snippet in zip(titles, snippets):
 		title = title.text
-		snippet = snippet.decode_contents()
-		snippet = snippet.replace('<span class="f">', '').replace('</span>', '')
-		snippet = snippet.replace('<wbr>', '').replace('</wbr>', '')
+		snippet = snippet.text
 
 		if titles_visible:
 			formatted += title_color + title + Back.RESET + NEWLINE 
