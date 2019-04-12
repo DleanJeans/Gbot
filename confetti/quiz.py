@@ -1,18 +1,20 @@
 import re
 from functools import partial
+from itertools import groupby
 
 QUOTE = '"'
-
-letter_digit_sep = r'([0-9]+(\.[0-9]+)?)'
-sep_letter_digit = partial(re.sub, letter_digit_sep, r' \1 ')
 
 def process(text):
 	text = text.replace('”', QUOTE)
 	text = text.replace(QUOTE, '')
 	text = text.replace('\n\n', '\n')
-	text = sep_letter_digit(text)
-	text = text.replace(' / ', '/')
 	text = text.rsplit('\n', 3)
 	text[1:] = [a.strip() for a in text[1:]]
+	text[1:] = map(separate_letter_digit, text[1:])
 	text[0] = text[0].replace('\n', ' ') # one-linize quiz
+	return text
+
+def separate_letter_digit(text):
+	words = [''.join(w) for _, w in groupby(text, str.isalpha)]
+	text = ' '.join([w.strip() for w in words])
 	return text
