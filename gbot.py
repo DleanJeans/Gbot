@@ -1,3 +1,7 @@
+from stopwatch import Stopwatch
+
+sw = Stopwatch()
+sw.start()
 print('Loading...')
 
 import screenstream
@@ -13,9 +17,9 @@ import importlib
 from tabulate import tabulate
 from colorama import Back, Fore
 from PIL import Image
-import importlib
 
-print('Done!')
+print('Done!', end=' ')
+sw.stop_and_print()
 
 TAB = '\t'
 SPACE = ' '
@@ -31,11 +35,16 @@ ENG = 'Eng'
 oct4 = 179
 
 print('Call gbot.init(profile, octet4) before running')
-def init(profile, octet4):
+def init(profile, octet4=None):
+	sw.start()
+
 	global oct4
-	oct4 = octet4
+	if octet4:
+		oct4 = octet4
 	load_profile(profile)
 	gg.init()
+	
+	sw.stop_and_print()
 
 def reload(module_name='gbot'):
 	module_name = profiles.get_name(module_name)
@@ -78,6 +87,8 @@ def run_image(image):
 	answer(q)
 
 def run():
+	sw.start()
+
 	print('Capturing...')
 	ip = '192.168.1.' + str(oct4)
 	image = screenstream.capture(ip)
@@ -85,6 +96,8 @@ def run():
 	history.add(image)
 
 	run_image(image)
+	
+	sw.stop_and_print()
 
 def save_history(name):
 	profile = profiles.current_profile
@@ -108,7 +121,7 @@ def answer(q):
 
 	no_matches = sum(name_to_points[EXACT]) == 0 and sum(name_to_points[SPLIT]) == 0
 	yes_matches = not no_matches
-	
+
 	if yes_matches and config.force_no_answer_search or not points.same_best_answer(name_to_points):
 		no_ans_q = q.replace(' '.join(answers), '')
 		plain, formatted = gg.search(no_ans_q, answers)
