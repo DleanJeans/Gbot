@@ -8,6 +8,7 @@ import count
 import points
 import os
 import profiles
+import importlib
 
 from tabulate import tabulate
 from colorama import Back, Fore
@@ -69,7 +70,7 @@ def run_history(folder, image):
 def run_image(image):
 	print('OCR...')
 	text = ocr.read_image(image, *config.ocr)
-	print(text)
+	print(text, NEWLINE)
 	text = quiz.process(text)
 	q = NEWLINE.join(text)
 	print(q, NEWLINE)
@@ -97,24 +98,26 @@ def answer(q):
 	
 	q = q.replace(NEWLINE, ' ')
 
-	points_dict = {}
+	name_to_points = {}
 	plain, formatted = gg.search(q, answers)
 	
 	to_be_printed = [formatted]
 
-	points_dict[EXACT] = count.exact(plain, answers)
-	points_dict[SPLIT] = count.splitted(plain, answers)
+	name_to_points[EXACT] = count.exact(plain, answers)
+	name_to_points[SPLIT] = count.splitted(plain, answers)
+
+	no_matches = sum(name_to_points[EXACT]) == 0 and sum(name_to_points[SPLIT]) == 0
+	yes_matches = not no_matches
 	
-	if config.force_no_answer_search or not points.same_best_answer(points_dict):
+	if yes_matches and config.force_no_answer_search or not points.same_best_answer(name_to_points):
 		no_ans_q = q.replace(' '.join(answers), '')
 		plain, formatted = gg.search(no_ans_q, answers)
 		to_be_printed.append(formatted)
-		points_dict[NO_ANS+EXACT] = count.exact(plain, answers)
-		points_dict[NO_ANS+SPLIT] = count.splitted(plain, answers)
+		name_to_points[NO_ANS+EXACT] = count.exact(plain, answers)
+		name_to_points[NO_ANS+SPLIT] = count.splitted(plain, answers)
 
 	if config.enable_translate:
 		if not config.force_translate:
-			no_matches = sum(points_dict[EXACT]) == 0 and sum(points_dict[SPLIT]) == 0
 			answers_in_eng = any([gg.is_eng(a) for a in answers])
 
 		if config.force_translate or answers_in_eng or no_matches:
@@ -127,14 +130,16 @@ def answer(q):
 
 			plain, formatted = gg.search(eng_q, answers)
 			to_be_printed.append(formatted)
-			points_dict[ENG] = count.splitted(plain, translated_answers)
+			name_to_points[ENG] = count.splitted(plain, translated_answers)
 
 	print_roundrobin_reversed(to_be_printed)
 
-	points_dict = points.negate_if_negative(q, points_dict)
-	points_dict = points.color_best(points_dict)
+	name_to_points = points.negate_if_negative(q, name_to_points)
+	name_to_points = points.color_best(name_to_points)
+
+	# add answers as headers
 	table = {ANSWERS:answers}
-	table.update(points_dict)
+	table.update(name_to_points)
 
 	print(tabulate(table, headers='keys'))
 	print(NEWLINE)
