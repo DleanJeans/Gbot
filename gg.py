@@ -1,16 +1,15 @@
 import colorama
 import re
+import browser
 
-from selenium import webdriver
 from colorama import Style, Back, Fore
 from urllib.parse import quote
 from bs4 import BeautifulSoup
 from googletrans import Translator
 from underthesea import ner
+from lprint import print
 
 GOOGLE = 'https://www.google.com/search?q='
-OVERRIDE_USERAGENT = 'general.useragent.override'
-USERAGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0'
 
 H3 = 'h3'
 SPAN = 'span'
@@ -19,6 +18,7 @@ CLASS_TITLE = 'LC20lb'
 CLASS_SNIPPET = 'st'
 
 NEWLINE = '\n'
+QUOTE = '"'
 
 COLORAMA_TAGS = [Back.BLUE, Back.RED, Back.RESET, Style.BRIGHT, Style.NORMAL]
 
@@ -27,31 +27,30 @@ titles_visible = True
 title_color = Back.BLUE
 answer_color = Fore.BLACK + Back.YELLOW
 
-def init():
-	global driver, translator
+def start():
+	global browser, translator
 
 	print('Opening Firefox...')
-	profile = webdriver.FirefoxProfile()
-	profile.set_preference(OVERRIDE_USERAGENT, USERAGENT)
-	driver = webdriver.Firefox(profile)
+	browser.start()
 	colorama.init()
 	translator = Translator()
 	print('Done!')
 
 def is_eng(a):
-	return translator.detect(a).lang == 'en'
+	return translator.detect(a).lang != 'vi'
 
 def translate(q):
 	return translator.translate(q, src='vi', dest='en').text
 
-def search(q, answers):
-	global driver
-
+def search(get_q, answers, driver=-1):
+	q = get_q()
+	q = q.replace(QUOTE, ' ')
 	print('Google:', Back.GREEN + Fore.BLACK + q + Back.RESET + Fore.RESET + NEWLINE)
-	url = get_search_url(q)
-	driver.get(url)
 
-	soup = BeautifulSoup(driver.page_source, features='lxml')
+	url = get_search_url(q)
+	browser.open_url(url, driver)
+
+	soup = BeautifulSoup(browser.get_source(driver), features='lxml')
 
 	titles = soup.find_all(H3, class_=CLASS_TITLE)
 	snippets = soup.find_all(SPAN, class_=CLASS_SNIPPET)

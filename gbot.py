@@ -17,6 +17,9 @@ import importlib
 from tabulate import tabulate
 from colorama import Back, Fore
 from PIL import Image
+from functools import partial
+from multiprocessing.dummy import Pool as ThreadPool
+from lprint import print
 
 print('Done!', end=' ')
 sw.stop_and_print()
@@ -34,17 +37,26 @@ ENG = 'Eng'
 
 oct4 = 179
 
-print('Call gbot.init(profile, octet4) before running')
-def init(profile, octet4=None):
+print('Call gbot.start(profile, octet4) before running')
+def start(profile='', octet4=None):
 	sw.start()
 
 	global oct4
 	if octet4:
 		oct4 = octet4
-	load_profile(profile)
-	gg.init()
+	if profile != '':
+		load_profile(profile)
+	gg.start()
 	
 	sw.stop_and_print()
+
+def reload_everything():
+	import pkgutil
+
+	files = [name for _, name, _ in pkgutil.iter_modules([''])]
+	print(files)
+	for file in files:
+		reload(file)
 
 def reload(module_name='gbot'):
 	module_name = profiles.get_name(module_name)
@@ -54,7 +66,7 @@ def reload(module_name='gbot'):
 	if module_name in profiles.PROFILES.values():
 		profiles.reload()
 	
-	print(f'Module \'{module_name}\' reloaded!', NEWLINE)
+	print(f'Module \'{module_name}\' reloaded!')
 
 def load_profile(name):
 	profiles.load(name)
@@ -64,9 +76,11 @@ def clear():
 	os.system('cls')
 
 def run_history(folder, image):
+	sw.start()
+
 	profile = profiles.current_profile
 	dirname = os.path.dirname(__file__).replace('\\', '/')
-
+	
 	try:
 		image = Image.open(f'{dirname}/{profile}/history/{folder}/{image}.png')
 	except FileNotFoundError as e:
@@ -76,12 +90,20 @@ def run_history(folder, image):
 	image = screen.post_process(image)
 	run_image(image)
 
+	sw.stop_and_print('run_history() took: ')
+
 def run_image(image):
 	print('OCR...')
 	text = ocr.read_image(image, *config.ocr)
-	print(text, NEWLINE)
-	text = quiz.process(text)
-	q = NEWLINE.join(text)
+
+	while True:
+		print(text, NEWLINE)
+		text = quiz.process(text)
+		q = NEWLINE.join(text)
+		if quiz.is_valid(q):
+			break
+		else:
+			text = ocr.read_image(image, *config.ocr2)
 	print(q, NEWLINE)
 	
 	answer(q)
@@ -96,14 +118,41 @@ def run():
 	history.add(image)
 
 	run_image(image)
-	
-	sw.stop_and_print()
+
+	sw.stop_and_print('run() took: ')
 
 def save_history(name):
 	profile = profiles.current_profile
 	history.save(profile, name)
 
+def do_search(search):
+	name = search[0]
+	search = search[1:]
+	plain, formatted = gg.search(*search)
+
+	answers = search[1]
+	exact_count = count.exact(plain, answers)
+	split_count = count.splitted(plain, answers)
+
+	return name, formatted, exact_count, split_count
+
 def answer(q):
+	def get_q(q):
+		return q
+
+	def get_no_ans_q(q, answers):
+		q = q.replace(' '.join(answers), '')
+		print('Removed Answers:', NEWLINE, q)
+		return q
+
+	def get_eng_q(q):
+		print('Translating...', end='\r')
+		q = gg.translate(q)
+		print('Translated:', NEWLINE, q)
+		return q
+
+	sw.start()
+
 	translated = False
 	
 	print('')
@@ -111,40 +160,36 @@ def answer(q):
 	
 	q = q.replace(NEWLINE, ' ')
 
+	searches = []
+
+	get_q = partial(get_q, q)
+	get_no_ans_q = partial(get_no_ans_q, q, answers)
+
+	searches.append(('', get_q, answers, 0))
+	searches.append((NO_ANS, get_no_ans_q, answers, 1))
+
+	answers_in_eng = any([gg.is_eng(a) for a in answers])
+
+	if config.enable_translate and (config.force_translate or answers_in_eng):
+		if not answers_in_eng:
+			answers = [gg.translate(a) for a in answers]
+		get_eng_q = partial(get_eng_q, q)
+		
+		searches.append((ENG, get_eng_q, answers, 2))
+
+	to_be_printed = []
 	name_to_points = {}
-	plain, formatted = gg.search(q, answers)
 	
-	to_be_printed = [formatted]
+	with ThreadPool(3) as pool:
+		results = pool.map(do_search, searches)
+	
+	for search_res in results:
+		name, formatted, exact_count, split_count = search_res
 
-	name_to_points[EXACT] = count.exact(plain, answers)
-	name_to_points[SPLIT] = count.splitted(plain, answers)
-
-	no_matches = sum(name_to_points[EXACT]) == 0 and sum(name_to_points[SPLIT]) == 0
-	yes_matches = not no_matches
-
-	if yes_matches and config.force_no_answer_search or not points.same_best_answer(name_to_points):
-		no_ans_q = q.replace(' '.join(answers), '')
-		plain, formatted = gg.search(no_ans_q, answers)
 		to_be_printed.append(formatted)
-		name_to_points[NO_ANS+EXACT] = count.exact(plain, answers)
-		name_to_points[NO_ANS+SPLIT] = count.splitted(plain, answers)
-
-	if config.enable_translate:
-		if not config.force_translate:
-			answers_in_eng = any([gg.is_eng(a) for a in answers])
-
-		if config.force_translate or answers_in_eng or no_matches:
-			print('Translating...')
-			eng_q = gg.translate(q)
-			translated_answers = [gg.translate(a) for a in answers]
-			print(eng_q)
-			print(NEWLINE.join(translated_answers))
-			print(NEWLINE)
-
-			plain, formatted = gg.search(eng_q, answers)
-			to_be_printed.append(formatted)
-			name_to_points[ENG] = count.splitted(plain, translated_answers)
-
+		name_to_points[name + EXACT] = exact_count
+		name_to_points[name + SPLIT] = split_count
+	
 	print_roundrobin_reversed(to_be_printed)
 
 	name_to_points = points.negate_if_negative(q, name_to_points)

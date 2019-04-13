@@ -1,4 +1,5 @@
 from itertools import tee
+from lprint import print
 
 NEWLINE = '\n'
 lang = None
