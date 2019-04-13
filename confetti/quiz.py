@@ -15,6 +15,6 @@ def process(text):
 	return text
 
 def separate_letter_digit(text):
-	words = [''.join(w) for _, w in groupby(text, str.isalpha)]
+	words = [''.join(w) for _, w in groupby(text, str.isdigit)]
 	text = ' '.join([w.strip() for w in words])
 	return text
