@@ -85,8 +85,8 @@ def run():
 
 	run_image(image)
 
-def save_history(profile, name):
-	profile = profiles.get_name(profile)
+def save_history(name):
+	profile = profiles.current_profile
 	history.save(profile, name)
 
 def answer(q):
