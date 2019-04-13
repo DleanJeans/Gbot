@@ -5,6 +5,7 @@ from colorama import Back, Fore
 
 EXACT = 'Exact'
 SPLIT = 'Split'
+TOTAL = 'TOTAL'
 
 best_color = Back.YELLOW
 
@@ -15,6 +16,15 @@ def same_best_answer(name_to_points):
 	split_max_index = max_indices(name_to_points[SPLIT])
 
 	return exact_max_index == split_max_index
+
+def add_total(name_to_points):
+	total_points = [0] * 3
+	for points in name_to_points.values():
+		highest_indices = max_indices(points)
+		for i in highest_indices:
+			total_points[i] += 1
+	
+	name_to_points[TOTAL] = total_points
 
 def color_best(name_to_points):
 	for name, points in name_to_points.items():

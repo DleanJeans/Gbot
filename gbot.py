@@ -135,6 +135,7 @@ def answer(q):
 	print_roundrobin_reversed(to_be_printed)
 
 	name_to_points = points.negate_if_negative(q, name_to_points)
+	points.add_total(name_to_points)
 	name_to_points = points.color_best(name_to_points)
 
 	# add answers as headers
