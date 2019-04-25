@@ -92,6 +92,9 @@ def run_history(folder, image):
 
 	sw.stop_and_print('run_history() took: ')
 
+def get_histories():
+	history.get_days(profiles.current_profile)
+
 def run_image(image):
 	print('OCR...')
 	text = ocr.read_image(image, *config.ocr)

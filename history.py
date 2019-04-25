@@ -27,3 +27,12 @@ def save(profile, folder_name):
 
 		image.save(path)
 	print('')
+
+def get_days(profile):
+	folder = DIRECTORY % profile
+	walker = os.walk(folder)
+	next(walker) # skip first one
+
+	for dir in walker:
+		print(os.path.basename(dir[0]))
+	print('')
