@@ -27,11 +27,11 @@ titles_visible = True
 title_color = Back.BLUE
 answer_color = Fore.BLACK + Back.YELLOW
 
-def start():
+def start(num_browsers):
 	global browser, translator
 
 	print('Opening Firefox...')
-	browser.start()
+	browser.start(num_browsers)
 	colorama.init()
 	translator = Translator()
 	print('Done!')

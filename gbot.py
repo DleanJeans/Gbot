@@ -46,7 +46,7 @@ def start(profile='', octet4=None):
 		oct4 = octet4
 	if profile != '':
 		load_profile(profile)
-	gg.start()
+	gg.start(config.num_browsers)
 	
 	sw.stop_and_print()
 
@@ -204,7 +204,7 @@ def answer(q):
 	# add answers as headers
 	table = {ANSWERS:answers}
 	table.update(name_to_points)
-
+	
 	print(question, NEWLINE)
 	print(tabulate(table, headers='keys'))
 	print(NEWLINE)

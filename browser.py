@@ -6,12 +6,12 @@ USERAGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 F
 
 lock = Lock()
 
-def start():
+def start(num=3):
 	global drivers
 	profile = webdriver.FirefoxProfile()
 	profile.set_preference(OVERRIDE_USERAGENT, USERAGENT)
 
-	drivers = [None] * 3
+	drivers = [None] * num
 	for i in range(len(drivers)):
 		drivers[i] = webdriver.Firefox(profile)
 
