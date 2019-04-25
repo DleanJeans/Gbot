@@ -156,6 +156,8 @@ def answer(q):
 	translated = False
 	
 	print('')
+
+	question = extract_question(q)
 	answers = extract_answers(q)
 	
 	q = q.replace(NEWLINE, ' ')
@@ -200,8 +202,12 @@ def answer(q):
 	table = {ANSWERS:answers}
 	table.update(name_to_points)
 
+	print(question, NEWLINE)
 	print(tabulate(table, headers='keys'))
 	print(NEWLINE)
+
+def extract_question(q):
+	return q.split(NEWLINE)[0]
 
 def extract_answers(q):
 	return q.split(NEWLINE)[1:]
