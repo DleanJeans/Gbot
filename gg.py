@@ -1,6 +1,8 @@
 import colorama
 import re
 import browser
+import requests
+import os
 
 from colorama import Style, Back, Fore
 from urllib.parse import quote
@@ -10,6 +12,9 @@ from underthesea import ner
 from lprint import print
 
 GOOGLE = 'https://www.google.com/search?q='
+GOOGLE_IMAGE = 'https://www.google.com/search?tbm=isch&q='
+GOOGLE_REVERSE_IMAGE = 'http://www.google.com/searchbyimage/upload'
+TEMP_PATH = os.path.dirname(__file__).replace('\\', '/') + '/gg-temp.png'
 
 H3 = 'h3'
 SPAN = 'span'
@@ -42,6 +47,29 @@ def is_eng(a):
 def translate(q):
 	return translator.translate(q, src='vi', dest='en').text
 
+saved_plain = ''
+saved_formatted = ''
+
+def reverse_search_image(image):
+	global saved_plain, saved_formatted
+
+	image.save(TEMP_PATH)
+	multipart = {'encoded_image': (TEMP_PATH, open(TEMP_PATH, 'rb')), 'image_content': ''}
+	
+	response = requests.post(GOOGLE_REVERSE_IMAGE, files=multipart, allow_redirects=False)
+	url = response.headers['Location']
+
+	browser.open_url(url)
+
+	saved_plain, saved_formatted = extract_results(None)
+
+def get_saved():
+	return saved_plain, saved_formatted
+
+def search_image(q, driver=-1):
+	url = GOOGLE_IMAGE + quote(q)
+	browser.open_url(url, driver)
+
 def search(get_q, answers, driver=-1):
 	q = get_q()
 	q = q.replace(QUOTE, ' ')
@@ -50,6 +78,9 @@ def search(get_q, answers, driver=-1):
 	url = get_search_url(q)
 	browser.open_url(url, driver)
 
+	return extract_results(answers, driver)
+
+def extract_results(answers, driver=-1):
 	soup = BeautifulSoup(browser.get_source(driver), features='lxml')
 
 	titles = soup.find_all(H3, class_=CLASS_TITLE)
@@ -68,7 +99,8 @@ def search(get_q, answers, driver=-1):
 	for tag in COLORAMA_TAGS:
 		plain = plain.replace(tag, '')
 	
-	formatted = color_keywords(formatted, answers)
+	if answers:
+		formatted = color_keywords(formatted, answers)
 
 	return plain, formatted
 

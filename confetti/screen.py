@@ -22,3 +22,13 @@ def process(image):
 
 def post_process(image):
 	return image
+
+def cut_image(image):
+	x = 10
+	y = image.height * 0.175
+	bx = image.width - 10
+	by = image.height * 0.5
+
+	image = image.crop((x, y, bx, by))
+
+	return image

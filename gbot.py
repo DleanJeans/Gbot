@@ -75,7 +75,7 @@ def clear():
 	history.clear()
 	os.system('cls')
 
-def run_history(folder, image):
+def run_history(folder, image, search_answers_for_image=False):
 	sw.start()
 
 	profile = profiles.current_profile
@@ -88,14 +88,14 @@ def run_history(folder, image):
 		return
 	
 	image = screen.post_process(image)
-	run_image(image)
+	run_image(image, search_answers_for_image)
 
 	sw.stop_and_print('run_history() took: ')
 
 def get_histories():
 	history.get_days(profiles.current_profile)
 
-def run_image(image):
+def run_image(image, search_answers_for_image=False):
 	print('OCR...')
 	text = ocr.read_image(image, *config.ocr)
 
@@ -109,9 +109,32 @@ def run_image(image):
 			text = ocr.read_image(image, *config.ocr2)
 	print(q, NEWLINE)
 	
-	answer(q)
+	answer(q, search_answers_for_image)
 
-def run():
+def run(mode=0):
+	"""
+	mode:
+		- 0 # normal text
+		- 1 # precapture image for reverse search
+		- 2 # reverse search image
+	"""
+	
+	if mode == 0:
+		run_normal()
+	elif mode == 1:
+		precapture()
+	elif mode == 2:
+		run_normal(search_answers_for_image=True)
+	
+def precapture():
+	ip = '192.168.1.' + str(oct4)
+	image = screenstream.capture(ip)
+	image = screen.cut_image(image)
+	history.add(image)
+
+	gg.reverse_search_image(image)
+
+def run_normal(search_answers_for_image=False):
 	sw.start()
 
 	print('Capturing...')
@@ -120,7 +143,7 @@ def run():
 	image = screen.process(image)
 	history.add(image)
 
-	run_image(image)
+	run_image(image, search_answers_for_image)
 
 	sw.stop_and_print('run() took: ')
 
@@ -129,9 +152,17 @@ def save_history(name):
 	history.save(profile, name)
 
 def do_search(search):
+	"""
+	search = (name, get_q, answers, driver)
+	"""
 	name = search[0]
 	search = search[1:]
-	plain, formatted = gg.search(*search)
+	use_saved = search[0]
+	
+	if use_saved == True:
+		plain, formatted = gg.get_saved()
+	else:
+		plain, formatted = gg.search(*search)
 
 	answers = search[1]
 	exact_count = count.exact(plain, answers)
@@ -139,7 +170,7 @@ def do_search(search):
 
 	return name, formatted, exact_count, split_count
 
-def answer(q):
+def answer(q, search_answers_for_image=False):
 	def get_q(q):
 		return q
 
@@ -154,8 +185,6 @@ def answer(q):
 		print('Translated:', NEWLINE, q)
 		return q
 
-	sw.start()
-
 	translated = False
 	
 	print('')
@@ -167,20 +196,25 @@ def answer(q):
 
 	searches = []
 
-	get_q = partial(get_q, q)
-	get_no_ans_q = partial(get_no_ans_q, q, answers)
+	if search_answers_for_image:
+		searches.append(('Image', True, answers))
+		for i in range(len(answers)):
+			gg.search_image(answers[i], i)
+	else:
+		get_q = partial(get_q, q)
+		get_no_ans_q = partial(get_no_ans_q, q, answers)
 
-	searches.append(('', get_q, answers, 0))
-	searches.append((NO_ANS, get_no_ans_q, answers, 1))
+		searches.append(('', get_q, answers, 0))
+		searches.append((NO_ANS, get_no_ans_q, answers, 1))
 
-	answers_in_eng = any([gg.is_eng(a) for a in answers])
+		answers_in_eng = any([gg.is_eng(a) for a in answers])
 
-	if config.enable_translate and (config.force_translate or answers_in_eng):
-		if not answers_in_eng:
-			answers = [gg.translate(a) for a in answers]
-		get_eng_q = partial(get_eng_q, q)
-		
-		searches.append((ENG, get_eng_q, answers, 2))
+		if config.enable_translate and (config.force_translate or answers_in_eng):
+			if not answers_in_eng:
+				answers = [gg.translate(a) for a in answers]
+			get_eng_q = partial(get_eng_q, q)
+			
+			searches.append((ENG, get_eng_q, answers, 2))
 
 	to_be_printed = []
 	name_to_points = {}

@@ -1,8 +1,6 @@
-import confetti
+import gbot
 import logging
 import traceback
-
-confetti.init()
 
 while True:
 	command = input('>>> ')
