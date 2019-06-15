@@ -1,0 +1,993 @@
+>>> gbot.run()
+Capturing...
+OCR...
+1.
+How should you NOT greet
+people?
+
+Hey
+Shut up
+
+What's up
+How should you NOT greet people?
+Hey
+Shut up
+What's up
+
+
+Google: How should you NOT greet people? Hey Shut up What's up
+
+Trimmed:
+Hey
+Shut up
+What's up
+
+Google: How should you NOT greet people
+
+Trimmed:
+Hey
+Shut up
+What's up
+
+
+
+
+
+How to talk to people (even if you don't know What to say)
+“I do not approve this proposal on the grounds, Mrs. Curtis has a private ... Yes, I do hope to generate business, but I am also opening up my estate for ... We could make this a true Founder's Day celebration, more in line with What ... Well, maybe for the person greeting people at the door and taking the tour groups around.
+
+Why You Should Greet Your Co-Workers Every Day | Inc.com
+Jun 29, 2017 - What greetings are rude and What greetings are considered polite when you want to respond to someone's greeting in English? This is a key ...
+
+Interpersonal Interaction: If you say Hey or hi to a girl and she ...
+She used to call me aJapanese woman.1 If she saw me, “Hey! Japanese!” Then I would say, “Shut up! With your big ... Then I said, “Did you say hello to him?” She said, “No.” “Why?! ... Then I said, “Christian, What did you do that day? ... And, you know, the day when you people came there, I know I didn't do anything good.
+
+politeness - Is it OK to stop saying hi to people that you have no ...
+Feb 26, 2010 - When you greet people in person for the first time—To make a positive first ... When someone introduces you and does not include your ...
+
+Is saying hello sexual harassment? - Reuters Blogs
+Greet Americans ... What should you say when you meet someone you know? ... Hey, Hey. Notice the shape of the voice. There's a little curve up, and then a curve ... Now, you could say 'afternoon' or 'evening' during those times, but it's not ...
+
+3 Ways to Greet Someone - wikiHow
+B: Um, not much I guess. You? A: Nothing. Are you going to Amanda's party on ... When you first see or meet someone, you should greet them by saying "Hello.
+
+Basic French greetings & expressions - Duolingo Forum
+A greeting is What you say when you meet or see someone. Work with a ... A: Hey, Chris! B: Oh, hi! ... A: What's going on, Steve? B: Um, not much I guess. You? A: Nothing. Are you going to Amanda's party on Friday? B: Yeah, I .... What's up?
+
+The Right Greeting for Every Situation in English | Speak Confident ...
+May 1, 2017 - 8 reasons why you should always say 'good morning' to your coworkers ... REUTERS Whether you're a morning person or not, there seems to ...
+
+Etiquette in US - How People Greet, Gestures, Thank you, Sorry ?
+Now normally, when I order coffee, I just say, “Hey, I'll have a latte. Thank you ... MY FRIEND: No, I mean What would YOU get if you could get anything? BARISTA: ... When we're nervous, we tend to speed up the way we talk. When we ... …no. I was surprised by how she just shut me down, so I decided to have some fun.
+
+17 Useful English Greetings for English Learners | FluentU English
+May 1, 2017 - Whether you're a morning person or not, there seems to be a universal reluctance to greet people first thing. It's very unlikely you meet a person ...
+
+3 Ways to Greet Someone - wikiHow
+Mar 29, 2016 - Instead of just saying 'hi' What else could you say to girls you meet online? ... The reason I do that, I was approached with a one word greeting so, in return ... Think about it, when someone approaches you with just a "hi" or "Hey", how do you respond ... then go to step three: ask her "What is your phone number" and Shut up.
+
+Greeting - Simple English Wikipedia, the free encyclopedia
+Aug 26, 2017 - I do not think "inappropriate" would be a term I would think of. ... smile/ wave/ brief greeting/ handshake/ brief chat, so you need to consider What ...
+
+Basic French greetings & expressions - Duolingo Forum
+Nov 10, 2014 - Can we not trust women to know the difference between a .... If that casual “Hey, What's up” it is not intended as a skeazy move…. why do you ... I say hello to people all the time, lots of guys say hello to people they meet on the street. .... of “Shut up” and “do not speak to me” is anything more that laughable.
+
+Top 10 Job Interview Etiquette Tips - The Balance Careers
+Jump to <a class="fl" href="https://www.wikihow.com/Greet-Someone#Informally.2C_to_Somebody_You_Don.27t_Know_sub" onmousedown="return rwt(this,'','','','12','AOvVaw1zJPk4cq8cU_69N40F4mbN','','2ahUKEwjB-sjwosfhAhXXQN4KHbDzC0gQygQwC3oECAIQBg','','',event)">Informally, to Somebody <b>You</b> Don't Know</a> - Make eye contact before greeting. ... Not only is it kind of creepy, it could get you into trouble.
+
+17 Useful English Greetings for English Learners | FluentU English
+Apr 15, 2014 - I think a lot of us anglophones get caught up on that. ... I wasn't sure What it meant. ... say "hello" (or "hi", which takes less effort), so people don't think you have no ... This is just a polite phrase, not an informational question, and if you ... for people who want to learn English, and are not interested in French.
+
+How To Say 'Hello' In 10 Different Languages | Babbel Magazine
+Feb 17, 2016 - When you are greeting a group of people – for example at a meeting ... with someone you have not seen in a long time or someone you do not ...
+
+What to do when your greetings fall on deaf ears? - Business ...
+May 17, 2012 - What should I try to connect with the silent few who don't respond? ... When I finally decided to stop after like 3 shut downs they look at me like I'm being rude. ... Greet people when you meet up with them the first time in the day. ...... I am not a morning person, but Hey, you've been awake long enough to get ...
+
+How to Start an Email: 6 Never-Fail Introductions and 6 to Avoid ...
+which are typically used to casually greet someone you have met before. Most people answer with “nothing” or “not much”. Or, if it feels right to make small talk, ...
+
+Answers      Exact    Split    NoAnsExact    NoAnsSplit
+---------  -------  -------  ------------  ------------
+Hey             -4        0             0             0
+Shut up         -1       -4             0             0
+What's up       -1       -4             0             0
+
+
+>>> gbot.run()
+Capturing...
+OCR...
+2.
+Which is NOT a type of nut?
+
+Sunflower seeds
+Pistachio
+
+Chestnut
+Which is NOT a type of nut?
+Sunflower seeds
+Pistachio
+Chestnut
+
+
+Google: Which is NOT a type of nut? Sunflower seeds Pistachio Chestnut
+
+Trimmed:
+Sunflower seeds
+Pistachio
+Chestnut
+
+Google: Which is NOT a type of nut
+
+Trimmed:
+Sunflower seeds
+Pistachio
+Chestnut
+
+
+
+
+
+Nuts and seeds - Better Health Channel
+The term 'nut' is applied to many seeds that are not botanically true nuts. ... passionfruit, poppy seed, pepita or pumpkin seed, sesame seed and Sunflower seeds. ... nuts, hazelnuts, peanuts, macadamias, pine nuts and pistachios – contain mainly ... a handful of mixed nuts; about two of each nut type not including chestnuts.
+
+If you are allergic to one kind of nut does it mean that you are allergic ...
+Unfortunately it does not use the term "nut" as a distinct fruit type. ... Dry drupes are technically not true nuts because in true nuts the hard outer wall constitutes ...
+
+Nuts and health | Nutrition Australia
+The term 'nut' is applied to many seeds that are not botanically true nuts. ... passionfruit, poppy seed, pepita or pumpkin seed, sesame seed and sunflower seed. ... Pistachios: protein, potassium, plant sterols and the antioxidant resveratrol ... Chestnuts are different they are rich in low glycemic index carbohydrates and low ...
+
+Tree Nut Allergy | Food Allergy Research & Education
+An allergy to one tree nut does not necessarily mean an individual is allergic to ... allergic to tree nuts are often allergic to more than one type of tree nut, it may ...
+
+5 most popular roasted nuts and seeds for Tet holiday - Vietnam Online
+In addition, each type of nut has its own nutrition considered to be good for health ... Below are top 5 most common roasted nuts and seeds in Vietnam during Tet. 1. ... the same with hạt dưa, however, there is not any pigment to color the nuts. ... Due to similar shape and the way to eat with Chestnut, Pistachio is called hạt dẻ ...
+
+Can You Be Allergic to Just One Type of Tree Nut? - Allergic Living
+If it is not treated right away, anaphylaxis can be life-threatening. If you have a peanut or tree nut allergy (or any kind of serious food allergy), the doctor will want ...
+
+Nut allergy: Everything you need to know on Pistachio Day
+Feb 26, 2016 - Nut allergy is tricky: Which nuts are safe to eat, and which aren't? Are pistachios considered nuts? We have examined the allergenic potential ...
+
+Allergic to one type of nut? You may not have to avoid them all, study ...
+Tree nut allergy is the second most common allergy in infants and young children. .... However, if your child needs to avoid nuts of any type, they should not be at ...
+
+What Are the Healthiest Nuts and Seeds? - Dr. Mercola
+Oct 19, 2015 - Macadamia nuts have the highest fat and lowest protein and carb content of ... Sunflower seeds also contain one of the highest levels of ... Stained pistachios can no longer be sold in-shell, and must be .... Sort Comments by :.
+
+Nut (fruit) - Wikipedia
+Mar 27, 2017 - People who are allergic to one type of tree nut, such as cashews, may not be allergic to all other kinds of tree nuts, though they are often told to ...
+
+Nuts & Seeds - Nutrition Myths
+On this website seeds are referred to dry seeds which are not considered nuts or ... chia seeds, hemp seeds, flaxseeds, pumpkin seeds, sesame seeds and Sunflower seeds. ... Chestnuts nutrition facts ... Nutritional information for pistachios.
+
+Nut (fruit) - Wikipedia
+The answer to your question is that it depends. The "tree nuts" include nuts like almonds, walnuts, and cashews. They are distinct from peanuts, which are actually not nuts at all.
+
+Tree Nut Allergy | Food Allergy Research & Education
+Tree nuts include walnut, almond, hazelnut, cashew, Pistachio and Brazil nuts. These are not the same as peanuts, which are legumes, or seeds, such as sunflower or ... If you're allergic to one type of tree nut, you have a higher chance of being ... Black walnut hull extract (flavoring); Brazil nut; Butternut; Cashew; Chestnut ...
+
+Nut and Peanut Allergy (for Teens) - KidsHealth
+These are not the same as peanuts, which are legumes, or seeds, such as ... If you're allergic to one type of tree nut, you have a higher chance of being allergic ...
+
+Tree nut allergy - Wikipedia
+A tree nut allergy is a hypersensitivity to dietary substances from tree nuts and edible tree seeds causing an overreaction of the immune system which may lead to severe physical symptoms. Tree nuts include, but are not limited to, almonds, Brazil nuts, cashews, chestnuts, filberts/hazelnuts, macadamia nuts, pecans, pistachios, ... tree nut species and also to peanuts, which ...
+
+nut | Definition & Examples | Britannica.com
+Sep 11, 2014 - Q: My child tested highly positive to tree nut allergy, but I know she ... be allergic to Pistachio, but may not be allergic to almond or hazelnuts.
+
+Everything You Need to Know about Tree Nut Allergy - AAAAI
+Tree nuts include almonds, Brazil nuts, cashews, hazelnuts, pecans, pistachios and walnuts. ... Nutmeg, water Chestnut, butternut squash and shea nuts are not tree nuts (the term “nut” does not always indicate a tree nut) and are generally well tolerated by tree nut-allergic individuals.
+
+What are some nuts that do not come from trees? - Quora
+Mar 29, 2017 - If you're allergic to one type of nut, chances are high that you're avoiding all types of nuts. Now, new research suggests that people with a ...
+
+QI: Quite interesting facts about nuts - Telegraph - The Telegraph
+Apr 7, 2011 - Nuts are defined as a simple, dry fruit with one seed (very ... Peanuts, almonds, pistachios, cashews, horse chestnuts and pine nuts are not nuts. ... pinders, Manila nuts and monkey nuts, aren't nuts: they are a type of pea ...
+
+If you are allergic to one kind of nut does it mean that you are allergic ...
+Some fruits and seeds that do not meet the botanical definition but are nuts in the culinary sense are: Almonds are the edible seeds of drupe fruits – the leathery "flesh" is removed at harvest. Brazil nut is the seed from a capsule. Candlenut (used for oil) is a seed.
+
+Answers            Exact    Split    NoAnsExact    NoAnsSplit
+---------------  -------  -------  ------------  ------------
+Sunflower seeds       -1      -10             0            -2
+Pistachio             -2       -1            -1             0
+Chestnut              -3       -1             0             0
+
+
+>>> gbot.run()
+Capturing...
+OCR...
+3.
+What is the most commonly
+used password?
+
+Qwerty
+Password
+
+123456
+What is the most commonly used password?
+Qwerty
+Password
+123456
+
+
+Google: What is the most commonly used password? Qwerty Password 123456
+
+Trimmed:
+Qwerty
+Password
+123456
+
+Google: What is the most commonly used password
+
+Trimmed:
+Qwerty
+Password
+123456
+
+
+
+
+
+The most popular passwords of 2018 revealed: Are yours on the list ...
+Jan 21, 2010 - The worst, weakest and most common passwords ever have been revealed in a ... passwords of all time revealed: '123456,' 'princess,' 'Qwerty'.
+
+Here Are the Most Commonly Used Passwords of 2017 | Mental Floss
+Top 10000 most common passwords used on the Internet: 91% of all profile passwords sampled all appear on the list of just the top 1000 passwords.
+
+The Most Common Passwords In The World Are Somehow Dumber ...
+Dec 13, 2018 - ... its annual list of the most commonly used passwords of the year. ... They are, maddeningly, “123456” and “Password. ... 9. Qwerty (Down 5).
+
+What are the most used passwords? - Quora
+Dec 20, 2017 - Here Are the Most Commonly Used Passwords of 2017. 123456 (Unchanged) Password (Unchanged) 12345678 (Up 1) Qwerty (Up 2) 12345 (Down 2) 123456789 (New) letmein (New) 1234567 (Unchanged)
+
+The 25 Most Common Passwords of 2017 Include 'Star Wars' - Fortune
+Jul 3, 2018 - These Are The Top 25 Most Common Passwords, According To Hackers ... 123456; Password; 12345678; Qwerty; 12345; 123456789; letmein ...
+
+The Top 25 Most Common Passwords According To Hacker Data ...
+Well, I once used my friend's name as Password. His name is Satyapandu Vithaleshwari Dyasag Krishnamacharyulu Sathya Surya Vijaya Chandrashekharuni.
+
+'123456,' 'donald,' and other terrible passwords people used this year
+Dec 13, 2018 - The most used passwords online also happen to be the worst ... Password; 123456789; 12345678; 12345; 111111; 1234567; sunshine; Qwerty
+
+The Most Common Passwords In The World Are Somehow Dumber ...
+Jul 3, 2018 - These Are The Top 25 Most Common Passwords, According To Hackers ... 10 per cent of us have used one of the passwords on the top 25 list.
+
+List of the most common passwords - Wikipedia
+Dec 20, 2017 - List of most used passwords online include '123456', 'Password' and 'Qwerty' ... "Hackers are using common terms from pop culture and sports to break into ... 123456. 2. Password. 3. 12345678. 4. Qwerty. 5. 12345. 6.
+
+'123456,' 'donald,' and other terrible passwords people used this year
+Dec 14, 2018 - ​Every year, SplashData combs through the various Password leaks to figure out which passwords are the most commonly used and are, ...
+
+The world's most common passwords revealed: Are you using them ...
+Dec 17, 2018 - The number one spot belongs to '123456', which is followed by another maddeningly obvious choice, 'Password'. In fact, these two are stalwarts of the most common passwords, having claimed the first ... 9, Qwerty, Down 5.
+
+The 25 Most Popular Passwords of 2018 Will Make You Feel Like a ...
+Dec 13, 2018 - Here are the top 25 most common passwords for 2018: 123456. Password. 123456789. 12345678. 12345. 111111. 1234567. sunshine.
+
+Top 25 worst, most insecure passwords used in 2017 | CSO Online
+Dec 14, 2018 - You can see the full list of the 100 most common passwords over at ... 12345678. 5. 12345. 6. 111111. 7. 1234567. 8. sunshine. 9. Qwerty.
+
+The most popular passwords of 2018 revealed: Are yours on the list ...
+Dec 13, 2018 - For the last seven years, SplashData has revealed its annual list of the most commonly used passwords of the year. This time around, the ...
+
+The Top 25 Most Common Passwords According To Hacker Data ...
+Dec 19, 2017 - The 25 Most Common Passwords of 2017 Include 'Star Wars' ... people have used at least one of the 25 worst passwords on this year's list, and nearly 3% of people have used the worst Password, 123456. ... 4. Qwerty (Up 2).
+
+The Top 25 Passwords in 2018 Are Not Secure - Most Popular Online ...
+Dec 17, 2018 - SplashData has released its annual list of the most commonly used passwords on the web, revealing that many people continue to use woeful ...
+
+The 25 Most Popular Passwords of 2018 Will Make You Feel Like a ...
+Dec 13, 2018 - "donald" entered the list of the most common passwords in 2018. ... 123456789. 12345678. 12345. 111111. 1234567. sunshine. Qwerty.
+
+List of the most common passwords - Wikipedia
+Dec 13, 2018 - The Top 25 Passwords in 2018 Are an Embarrassment to Humankind. 123456. Password. 123456789. 12345678. 12345. 111111. 1234567. sunshine.
+
+List of the most common passwords - Wikipedia
+This is a list of the most common passwords, according to various sources. Common ... 10% of the surveyed passwords, with the most common Password of 2016, "123456", ... 5, abc123, Qwerty, abc123, Qwerty, 12345, football, 12345, 12345.
+
+The Top 25 Passwords in 2018 Are Not Secure - Most Popular Online ...
+This is a list of the most common passwords, according to various sources. Common passwords generally are not recommended on account of low Password ...
+
+Answers      Exact    Split    NoAnsExact    NoAnsSplit
+---------  -------  -------  ------------  ------------
+Qwerty           0        0             0             0
+Password         9        0            10             1
+123456          20        0            13             1
+
+
+>>>
+>>> gbot.run()
+Capturing...
+OCR...
+4.
+Why is the phrase 'pass the
+salt' insulting?
+
+It's like ‘the food is bland’
+
+It's rude to pass things
+Why is the phrase 'pass the
+salt' insulting?
+It's like ‘the food is bland’
+It's rude to pass things
+
+
+Google: Why is the phrase 'pass the salt' insulting? It's like ‘the food is bland’ It's rude to pass things
+
+Trimmed:
+salt' insulting?
+It's ‘the food is bland’
+It's rude to pass things
+
+Google: Why is the phrase 'pass the salt' insulting
+
+Trimmed:
+salt' insulting?
+It's ‘the food is bland’
+It's rude to pass things
+
+
+
+
+
+8 Things Not to Do When Going Vegan - It doesn't taste like chicken
+Jan 30, 2014 - Once you get used to being vegan, It's really easy. .... Do you see how I'm basically saying the same thing, but I've taken the blame .... We have a family party coming up and I'm wondering, is It rude to bring my own food as a back up? ...... I think parents often believe It's a phase or trend that will soon pass.
+
+Did you know The French Salt rule? - FRENCH WORD-A-DAY
+May 27, 2017 - when the only other woman at the table asked me to pass the salt. ... I'm also not insulted if someone salts the food I prepare (not that I prepare ...
+
+Colombian Food: Worst of the Worst – Expat Chronicles
+Jul 30, 2014 - It means flavorless food at every meal, meal after meal, day after day. ... Colombians lay a little salt on them, but that's not enough for me. ... One thing they say which is true and passes the corn syrup test: ... I liked Ajiaco when It was cold and rainy in Bogota, but It's not good ..... It's bland, simplistic, utilitarian.
+
+Pass The Salt - YouTube
+Pass The Salt. Matthew Abeler. Loading. ... You will LAUGH SO HARD that YOU WILL FAINT - FUNNY CAT ...
+
+Thesaurus of English Words and Phrases - Wikisource, the free online ...
+Jan 17, 2019 - If you'd like to help, please review the style guidelines and help pages. .... Adv. conditionally &amp;c adj.; as the matter stands, as things are; such being the case &amp;c 8. ..... strong, sound, passing, heavy, plenary, deep, high; signal, at its height, ...... Adj. violent, vehement; warm; acute, sharp; rough, rude, ungentle, ...
+
+Pass on | Define Pass on at Dictionary.com
+Pass on definition, to move past; go by: to pass another car on the road. ... WORD ORIGIN | IDIOMS. SEE MORE SYNONYMS FOR pass ON THESAURUS.COM ...
+
+I Would Rather Go Hungry Than Eat Filipino Street Food Again ...
+Mar 17, 2014 - It is possible that not many have heard of Filipino food before. ... Adobo – chicken and pork cooked in vinegar, salt, garlic, pepper, soy ... We were open to new things, we were willing to eat anything locals gave us ... to get rid of the flies, as It's a common practice in other Asian countries. ...... It's disrespectful.
+
+The Meaning Behind 30 Catch Phrases You Always Hear in the Office ...
+Jul 21, 2015 - The history behind 30 common catch phrases. ... It was an insult if you were deemed unworthy of even holding a candle. ... "Pass the buck. ... Food is easier to swallow with a small amount of salt, and this evolved into taking ...
+
+People Who Put More Salt On Their Food Before Even Tasting It ...
+I don't understand anyone who puts extra salt on things. ... If It's adequately salted, then salting before trying might result in a ... It's simply rude. ... and then salt It, you are implying that the food is undersalted or bland. .... more insulting to the chef's design than It is to specify how you want ... ten months pass.
+
+'PLEASE PASS THE SALT' - The Washington Post
+Apr 9, 1978 - The question of whether the movement of salt is causally dependent on the utterance of the phrase, "Please pass the salt," has occupied the ...
+
+Eleven Etiquette Mistakes (Not) to Make at an Italian Meal (Updated ...
+Aug 8, 2010 - Namely, there is so much more tourism to cities like Rome than even a few ... as an appetizer…with prosciutto, should do the same thing. ... Unlike in the States, It's seen as rude for a waiter to bring your bill and ... I can't help It: My sodium-drenched American palate finds a lot of Italian food just slightly bland.
+
+Pass definition and meaning | Collins English Dictionary
+Pass definition: To pass someone or something means to go past them without stopping . ... the intended insult passed unnoticed. 19. .... pass the salt. b.
+
+Greek table manners | Neos Kosmos
+Aug 18, 2011 - So is teaching Greeks how to eat correctly like trying to teach an old dog new tricks? Neos Kosmos ... Food should be tasted before salt and pepper are added. ... And that's not in the cooking, It's mainly used up when on the table. ... Diners who are passing items along the table should not eat It on the way.
+
+What's the meaning of "pass the salt"? | Yahoo Answers
+Jan 18, 2009 - Salt is often put on dining tables in containers (salt cellars), as is pepper. One asks someone to 'pass the salt' rather than stretch over the table ...
+
+Are You Rude for Passing the Salt? - The Daily Meal
+Apr 16, 2015 - Have you been passing the salt wrong your whole life? ... While It may seem like a slight infraction, when you are at a formal table, It could be a ...
+
+meaning - Is It very wrong to say "can you pass the salt ...
+May 26, 2018 - Literal interpretations of words can lead to confusion, for example: Quincy: Do you know the way to the train station? Albert: Yes. is a very literal ...
+
+Which is correct: 'Pass the salt, please' or 'Please pass the salt ...
+Is It because the direction of time determines that salt falls out of the salt shaker and ... The phrase - Pass the salt, please - is slower in intonation, It shows a more ...
+
+pass the salt | WordReference Forums
+Jul 31, 2012 - Hello everybody, I have a problem about a syntactic group "pass the salt". - I'd like Tom pass the salt. I don't understand its meaning. Thanks in.
+
+Urban Dictionary: Pass the salt
+Forget about It, get over It and move on; stop; cease. ... Larry: "I really want to know the meaning of life" David: "That's ridiculous. Pass the salt." ... Henry was hating on the cool so I had to call him out - pass the salt ... Name · Sex · Work · Music · ⚽   Sports · Internet · Religion · Food · College · Drugs.
+
+Urban Dictionary: Pass the salt
+Larry: "I really want to know the meaning of life" David: "That's ridiculous ... Henry was hating on the cool so I had to call him out - pass the salt ... The punch line to a joke in which the teller tries to get the "tellee" to laugh at a joke that isn't funny.
+
+Answers                          Exact    Split    NoAnsExact    NoAnsSplit
+-----------------------------  -------  -------  ------------  ------------
+salt' insulting?                     0        0             0             1
+It's like ‘the food is bland’        0        9             0             5
+It's rude to pass things             0       16             0            14
+
+
+>>> gbot.run()
+Capturing...
+OCR...
+5.
+What is the otter's natural
+habitat?
+
+Wetlands
+Caves
+
+Arctic Regions
+What is the otter's natural habitat?
+Wetlands
+Caves
+Arctic Regions
+
+
+Google: What is the otter's natural habitat? Wetlands Caves Arctic Regions
+
+Trimmed:
+Wetlands
+Caves
+Arctic Regions
+
+Google: What is the otter's natural habitat
+
+Trimmed:
+Wetlands
+Caves
+Arctic Regions
+
+
+
+
+
+a global overview of wetland and marine protected areas on the world ...
+The Natural State Home to mountains, rivers, lakes, Caves and forests, ... New regional director to head southeastern conservation efforts Fish and Wildlife Service .... purchase Wetlands and fund grants for migratory waterfowl habitat more than ...... otters and polar bears; the National Marine Fisheries Service is responsible ...
+
+Facts About Otters - Live Science
+Scotland is home to about 8000 otters, making it a European stronghold for this ... Otters that live in freshwater habitats are largely nocturnal and occupy very ...
+
+Otters - IUCN Portals
+Current range. Currently, the Kentucky cave shrimp is restricted to nine groundwater basins in the Mammoth Cave National Park region of central Kentucky:.
+
+Basic Facts about Sea Otters | Defenders of Wildlife
+Jun 17, 2016 - Habitat. Otters are found almost all over the world and in many wet habitats, such freshwater rivers, lakes, oceans, coastlines and marshes. Most otters live in dens — built by other animals, such as beavers — that are dug into the ground that have many channels and dry inner chambers.
+
+Otters, facts and information - National Geographic
+The neotropical otter or neotropical river otter (Lontra longicaudis) is an otter species found in ... The length of the neotropical otter can range from 90–150 centimetres .... individual otters may be more clumped because they will all move into areas of a .... and giant otter, Pteronura brasiliensis, in the Pantanal wetland, Brazil.
+
+North American River Otter | National Wildlife Federation
+Learn about the size, diet, population, range, behavior and other fascinating facts about sea otters.
+
+Our Wildlife | South West Lakes Trust
+Dec 11, 2014 - Arctic Wetlands store enormous amounts of carbon in frozen peat and soil, as long ... atmospheric warming, habitat fragmentation, de-synchronisation of predator-prey life cycles, overharvesting of wildlife and of globally migratory ... already designated as Ramsar Sites in the Arctic and Sub-Antarctic Regions.
+
+Otter Habitat - Otter Facts and Information
+Learn facts about the North American river otter's habitat, diet, life history, and more.
+
+Habitat Types and Species | New Hampshire Fish and Game ...
+Working Paper 3: A Global Overview of Forest Protected Areas ... World Heritage natural sites with wetland and marine values in the Palearctic Realm. 31 ... and range from a 19ha nature reserve in the Seychelles Islands to a 9 million ha ..... Caves of Aggtelek and Slovak Karst ..... (jaguar, camain, tapir, giant otter), prevents.
+
+North American river otter - Wikipedia
+Otters are found on every single continent in the world except for Australia and Antarctica.
+
+Four Types of Freshwater Wetlands
+Habitats and their living natural resources are under increasing pressures everywhere from humankind. Species .... importance of Wetlands through the Ramsar convention is a favorable .... tats where otters are missing are deserts, polar Regions, and the ...... their own dens, but most make use of holes in river banks, Caves,.
+
+Otter | The Vincent Wildlife Trust
+Jump to <a class="fl" href="https://en.wikipedia.org/wiki/North_American_river_otter#Geographic_range" onmousedown="return rwt(this,'','','','20','AOvVaw2k7u4Vo1kI8fDAPpBeAUic','','2ahUKEwjj8aveo8fhAhWNM94KHZvgCX4QygQwE3oECAMQBg','','',event)">Geographic <b>range</b></a> - Although commonly called a "river otter", the North American river otter is found in a wide variety of aquatic habitats, both freshwater and coastal marine, including lakes, rivers, inland Wetlands, coastal shorelines, marshes, and estuaries. It can tolerate a great range of temperature and elevations.
+
+Plants in Wetlands | NSW Environment & Heritage
+Otters are smart and playful, and their webbed feet and strong tails make them powerful swimmers. ... Though most live in freshwater rivers, lakes, and Wetlands, the sea otter and the ... Habitat and young .... Polar Bear .... AnimalsWildlife Watch.
+
+Otter Habitat | Where Do Otters Live?
+The otter (Lutra lutra) is regarded as one of Ireland's most charismatic native ... In Ireland otters are found in a diverse array of aquatic habitats, from small ...
+
+Wetland Biome Facts - SoftSchools
+Conserving and enhancing these habitats is important for a variety of species including otters, dragonflies, wetland birds, newts and a wide range of flora.
+
+All About Otters - Habitat and Distribution | SeaWorld Parks ...
+River otters can be found all across the United States except for in the desert and the Florida Keys. They live in both freshwater and slightly salty, brackish habitats. ... River otters choose their habitat based on how much food and shelter they can find.
+
+wetland | National Geographic Society
+The New Hampshire landscape is rich with habitats for fish and wildlife -- from granite peaks, forests, and Wetlands to grasslands, coastal islands, and nearly a thousand lakes and ponds. Twenty-seven habitats are identified in NH's Wildlife Action Plan -- some of them common and some extremely rare.
+
+Facts About Otters - Live Science
+Habitat. Otters are usually found no more than a few hundred meters from water. Most species are entirely dependent on aquatic habitats for food. River otters (genus Lutra) inhabit all types of inland waterways, as well as estuaries and marine coves.
+
+Answers           Exact    Split    NoAnsExact    NoAnsSplit
+--------------  -------  -------  ------------  ------------
+Wetlands              1        1             1             0
+Caves                 1        1             0             0
+Arctic Regions        0        3             0             0
+
+
+>>> gbot.run()
+Capturing...
+OCR...
+6.
+You were constantly warned
+NOT to do this to the moon
+
+Laughing at it
+Pointing at it
+
+Scolding at it
+You were constantly warned NOT to do this to the moon
+Laughing at it
+Pointing at it
+Scolding at it
+
+
+Google: You were constantly warned NOT to do this to the moon Laughing at it Pointing at it Scolding at it
+
+Trimmed:
+Laughing it
+Pointing it
+Scolding it
+
+Google: You were constantly warned NOT to do this to the moon Laughing at it Pointing at it Scolding at it
+
+Trimmed:
+Laughing it
+Pointing it
+Scolding it
+
+
+
+
+
+The Best Thing My Psychic Mom Taught Me Is No One Wants To Hear ...
+Sep 5, 2018 - “Divination is a sin,” she was always saying — as a warning, as an ... Before his casket, as Mami attempted and failed to make Nono's eyes stay ... We had no savings and no way of paying them. .... Her readings were brief and to the point, and none of her clients came back. .... I couldn't help but laugh.
+
+The Best Thing My Psychic Mom Taught Me Is No One Wants To Hear ...
+Sep 5, 2018 - “Divination is a sin,” she was always saying — as a warning, as an ... Before his casket, as Mami attempted and failed to make Nono's eyes stay ... We had no savings and no way of paying them. .... Her readings were brief and to the point, and none of her clients came back. .... I couldn't help but laugh.
+
+Kurt Vonnegut - Wikiquote
+The telling of jokes is an art of its own, and it always rises from some .... I urge you to please notice when you are happy, and exclaim or murmur or think at some point, "If ... People hate it when they're tickled because laughter is not pleasant, if it ... It can make quite a difference not just to you but to humanity: the sort of boss ...
+
+Kurt Vonnegut - Wikiquote
+The telling of jokes is an art of its own, and it always rises from some .... I urge you to please notice when you are happy, and exclaim or murmur or think at some point, "If ... People hate it when they're tickled because laughter is not pleasant, if it ... It can make quite a difference not just to you but to humanity: the sort of boss ...
+
+George Bernard Shaw - Wikiquote
+People are always blaming circumstances for what they are. .... Do not do unto others as you would expect they should do unto you. ... There are no perfectly honorable men; but every true man has one main point of honor and a few minor ones. ..... When you are scolded for a mistake ask the person who scolds you whether ...
+
+George Bernard Shaw - Wikiquote
+People are always blaming circumstances for what they are. .... Do not do unto others as you would expect they should do unto you. ... There are no perfectly honorable men; but every true man has one main point of honor and a few minor ones. ..... When you are scolded for a mistake ask the person who scolds you whether ...
+
+Winning Colours: Book 3: Serrano Legacy
+Book 3: Serrano Legacy Elizabeth Moon. for generations. Steady hard work, her parents had always told her, made its own luck. Do it right and you won't have to ...
+
+Winning Colours: Book 3: Serrano Legacy
+Book 3: Serrano Legacy Elizabeth Moon. for generations. Steady hard work, her parents had always told her, made its own luck. Do it right and you won't have to ...
+
+Use you in a sentence | you sentence examples
+I do not feel each letter any more than you see each letter separately when you read. ... But I warn you, if you don't tell me that this means war, if you still try to defend the ... There it is again, do you hear? said he, pointing in the direction whence came the ... You always look neat and clean - even if you are a little out of style.
+
+Use you in a sentence | you sentence examples
+I do not feel each letter any more than you see each letter separately when you read. ... But I warn you, if you don't tell me that this means war, if you still try to defend the ... There it is again, do you hear? said he, pointing in the direction whence came the ... You always look neat and clean - even if you are a little out of style.
+
+Answers Incorrect word correction Inactivity is the greater cause of ...
+do e-enough more f- watch g-make. Answers. Incorrect word correction ... b-had jsjhere are many labour saving devices They does not ... One thing we all must do to cooperate with police .... Rama told that (c) ...... She pointed out that Mrs. Packletide has wrongly paid a ... hunger for publicity of the characters evoke laughter.
+
+Answers Incorrect word correction Inactivity is the greater cause of ...
+do e-enough more f- watch g-make. Answers. Incorrect word correction ... b-had jsjhere are many labour saving devices They does not ... One thing we all must do to cooperate with police .... Rama told that (c) ...... She pointed out that Mrs. Packletide has wrongly paid a ... hunger for publicity of the characters evoke laughter.
+
+Chinese Tales - The Man Who Would Not Scold | Bedtime Stories
+Childrens story Illustration for Man Who Would Not Scold ... nothing, and you may be sure that at such times he always licked his chopsticks clean. ... laughed Old Boy. ... He would do everything the fairy had told him and even more. .... Lin lay a great pile of feathers, and Wang freed from his trouble, pointed to them and said,.
+
+Chinese Tales - The Man Who Would Not Scold | Bedtime Stories
+Childrens story Illustration for Man Who Would Not Scold ... nothing, and you may be sure that at such times he always licked his chopsticks clean. ... laughed Old Boy. ... He would do everything the fairy had told him and even more. .... Lin lay a great pile of feathers, and Wang freed from his trouble, pointed to them and said,.
+
+The Mirror of Literature, Amusement, and Instruction: Containing ...
+My mother, having made up her mind to be saving, had taken a lease of the house, ... was always very angry, and told them that her child had not such a vulgar name; at which, many would laugh, and make a point ... “Pretty little twinkling star, How I wonder what you are; All above the earth so high. like a diamond in the sky.
+
+The Mirror of Literature, Amusement, and Instruction: Containing ...
+My mother, having made up her mind to be saving, had taken a lease of the house, ... was always very angry, and told them that her child had not such a vulgar name; at which, many would laugh, and make a point ... “Pretty little twinkling star, How I wonder what you are; All above the earth so high. like a diamond in the sky.
+
+(PDF) Jackson, S / WE HAVE ALWAYS LIVED IN A CASTLE [novel ...
+The point isn't that this material isn't embedded in Jackson's narrative; the point is ... Blackwoods had always lived in our house, and kept their things in order; ... with Uncle Julian in the room, but I do not recall that Constance and I have ..... I am living on the moon, I told myself, I have a little house all by myself on the moon.
+
+(PDF) Jackson, S / WE HAVE ALWAYS LIVED IN A CASTLE [novel ...
+The point isn't that this material isn't embedded in Jackson's narrative; the point is ... Blackwoods had always lived in our house, and kept their things in order; ... with Uncle Julian in the room, but I do not recall that Constance and I have ..... I am living on the moon, I told myself, I have a little house all by myself on the moon.
+
+(PDF) Idioms ( thành ngữ | tieumoc nhi - Academia.edu
+E.g: - What's the name of the guitarist we were talking about yesterday? ... There's no point Well, what's happened is behind Chẳng ích gì khi mãi buồn chán .... (Chậm mà chắc) Threats do not always lead to blows (Chó sủa là chó không cắn) If ...... S ư u t ầ m , t ổ n g h ợ p P a g e 50 | 69 Idioms ( thành ngữ ) Laughter is the ...
+
+(PDF) Idioms ( thành ngữ | tieumoc nhi - Academia.edu
+E.g: - What's the name of the guitarist we were talking about yesterday? ... There's no point Well, what's happened is behind Chẳng ích gì khi mãi buồn chán .... (Chậm mà chắc) Threats do not always lead to blows (Chó sủa là chó không cắn) If ...... S ư u t ầ m , t ổ n g h ợ p P a g e 50 | 69 Idioms ( thành ngữ ) Laughter is the ...
+
+Answers           Exact    Split    NoAnsExact    NoAnsSplit
+--------------  -------  -------  ------------  ------------
+Laughing at it        0       -5             0            -5
+Pointing at it        0       -5             0            -5
+Scolding at it        0       -5             0            -5
+
+
+>>> gbot.run()
+Capturing...
+OCR...
+7.
+What does a strong passport
+mean?
+
+Bypass long queues
+High visa-free access
+
+Extended expiry date
+What does a strong passport mean?
+Bypass long queues
+High visa-free access
+Extended expiry date
+
+
+Google: What does a strong passport mean? Bypass long queues High visa-free access Extended expiry date
+
+Trimmed:
+Bypass long queues
+High visa-free access
+Extended expiry date
+
+Google: What does a strong passport mean
+
+Trimmed:
+Bypass long queues
+High visa-free access
+Extended expiry date
+
+
+
+
+
+Visa Waiver Program | U.S. Embassy & Consulates in Australia
+The Visa Waiver Program (VWP) enables nationals of certain countries, including Australia, New Zealand, and the United Kingdom, to travel to the United States ...
+
+Most Powerful / Best Passports In The World And Why It Matters
+Jan 19, 2018 - What does this mean? The Henley &amp; Partners Passport Index ranks countries by how many destinations their nationals can travel to visa-free.
+
+How to Extend Your Visa in Bali - Bali Floating Leaf
+Jan 18, 2018 - Unfortunately, entering Visa Free does not allow you to extend your visa. ... So after you pay for your visa, you'll proceed to the immigration line as you ... to initiate your extension 7 to 10 days before the expiration date of your visa, ... Note: It seems the Nusa Dua office may stay open longer than Denpasar.
+
+Passport - Wikipedia
+May 25, 2018 - A strong passport means you can travel around the world without needing to apply for a visa ahead of time. Holding one of the best passports in ...
+
+Your Guide to (Legally) Staying in Europe for More Than 90 Days
+Jun 5, 2018 - Many people want to stay in Europe and the Schengen Zone longer than ... The risk is too great. ... Working holiday visas are easy to get and the best way to extend ... 12 months according to the validity of their visa and purpose of stay.” ..... Get all my best Europe travel tips as well as this FREE travel starter ...
+
+These Are the Most Powerful Passports in the World 2018 | Time
+A passport is a travel document, usually issued by a country's government, that certifies the ..... The strongest and weakest passports (as of 2019) are as follows: ..... in passports, and will choose to enter or exit countries via different means (for ...
+
+Indian Visa Application | How To Get India 60 Day E-Tourist Visa The ...
+Getting your Indian visa application finished is the most important part of ... For the one year visa, that does not mean you can stay in India for one year, the ... The e-conference visa is a single-entry valid for 30 days. .... Your passport must have at least 6 months expiration left on it from the date of ...... Howdi, great article…
+
+Most powerful passport in 2018 is with Japan, Henley reports - CNN.com
+Sep 6, 2018 - Singapore can be celebrated for more than its role in the hit film Crazy Rich Asians — its passport is now the most powerful in the world.
+
+Visitor Visa Requirements - updtd 30/7/12 - Australian High Commission
+Jul 30, 2012 - Skip to main content; Text size ... The subclass 600 visitor visa has a number of other stream options ... What do we mean by a “applicant genuinely intends to stay ... remain in Australia for a longer period (for example, maintain ... A three month stay with a multiple entry facility and a validity period of one ...
+
+The Most Powerful Passports in the World | Travel + Leisure
+Oct 9, 2018 - Find out how many countries someone with that passport can enter. ... Henley Index: Japanese passport now world's most powerful. Maureen ...
+
+Residence Visa - Department of Immigration and Emigration...
+To obtain a Residence Visa, it is necessary to arrive in Sri Lanka on an Entry Visa ... from the respective Ministry; A copy of the Bio Data Page of Your passport ... Lanka should end at least two months before the expiry date of your travel document. ... Recommendation of the Ministry of External Affairs or relevant line ministry
+
+The World's Most Powerful Passports [Infographic] - Forbes
+2 days ago - The 26 Most Powerful Passports in the World. ... According to the 2019 Henley Passport Index, Japan, Singapore, and South Korea have the world's most powerful passports. That means people who hold a passport from one of those nations can enter more countries without visas or prior travel approval.
+
+Smartraveller.gov.au - United Kingdom
+Conditions can change suddenly. ... We've reviewed our travel advice for the United Kingdom. ... There is a heightened threat of terrorist attack in the UK.
+
+What Makes These The World's Most Powerful Passports - One ...
+Oct 11, 2018 - The World's Most Powerful Passports [Infographic] ... According to the latest edition of the Henley Passport Index, the U.S. passport is one of the world's most powerful, granting its holders visa-free access or visa-on-arrival access to 186 countries.
+
+Multiple passports: How buying citizenships works | CNN Travel
+Mar 9, 2018 - "Most of the individuals making these types of investments are high ... 2017 Visa Restrictions Index thanks to its visa-free entry to 177 countries.
+
+The world's most powerful passports: Singapore ranks number one ...
+Nov 3, 2017 - In the history of the most powerful passport in the world, this is the first time an Asian country has made it to the top. Singapore passport holders ...
+
+Most powerful passport in 2018 is with Japan, Henley reports - CNN.com
+Oct 9, 2018 - Find out how many countries someone with that passport can enter. ... Japanese citizens can now enjoy visa-free or visa-on-arrival access to a whopping 190 ... It's also recently signed a visa-waiver agreement with Russia, due to come into effect ... Christian H. Kälin, Group Chairman of Henley &amp; Partners, ...
+
+What is the most powerful passport and why? - Quora
+Oct 25, 2017 - The Passport Index updates in real time to reflect the countries a passport-holder can access with no application, meaning that she needs no ...
+
+The World's Most Powerful Passports [Infographic] - Forbes
+Oct 11, 2018 - After its citizens gained visa-free access to Myanmar earlier this month, Japan has ... At the other end of the scale, Afghanistan and Iraq have the least powerful ... Number of visa free countrie passport holders can visit in 2018.
+
+The World's Most Powerful Passports [Infographic] - Forbes
+Jan 29, 2016 - Singapore has a visa-free score of 159, which means a citizen having Singapore passport can have visa-free access to 173 countries, the highest so far.
+
+Answers                  Exact    Split    NoAnsExact    NoAnsSplit
+---------------------  -------  -------  ------------  ------------
+Bypass long queues           0        0             0             0
+High visa-free access        0        3             0             4
+Extended expiry date         0        3             0             0
+
+
+>>> gbot.run()
+Capturing...
+OCR...
+8.
+How many times in average
+does a person go to the toilet in
+aday?
+How many times in average
+does a person go to the toilet in
+aday?
+
+
+Google: How many times in average does a person go to the toilet in aday?
+
+Trimmed:
+does person go to toilet
+aday?
+
+Google: How many times in average does a person go to the toilet in aday
+
+Trimmed:
+does person go to toilet
+aday?
+
+
+
+
+
+How many times a day should a person pee? - Medical News Today
+Therefore, the number of times you go per day may vary. A general rule ... On average, when awake, a person should urinate every 2-4 hours. Total numbers of ...
+
+How many times a day should a person pee? - Medical News Today
+Therefore, the number of times you go per day may vary. A general rule ... On average, when awake, a person should urinate every 2-4 hours. Total numbers of ...
+
+How many times a day do you go to the bathroom? - Quora
+Sep 12, 2017 - Find out what's average, which factors can affect frequency, and when you should ... There is no generally accepted number of times a person should poop. ... The older you get, the more likely you are to be constipated. This is .... Easy to install and better than toilet paper, there's no reason not to love bidets.
+
+How often do YOU go to the toilet? Doctor reveals the number of times ...
+Sep 12, 2017 - Find out what's average, which factors can affect frequency, and when you should ... There is no generally accepted number of times a person should poop. ... The older you get, the more likely you are to be constipated. This is .... Easy to install and better than toilet paper, there's no reason not to love bidets.
+
+How often do YOU go to the toilet? Doctor reveals the number of times ...
+Jun 7, 2018 - On average, she said people will need to go to pass urine around six ... And the number of times people go to the toilet can also be affected by ...
+
+How Many Times Per Day Does the Average Person Pee? - Redorbit
+Jun 7, 2018 - On average, she said people will need to go to pass urine around six ... And the number of times people go to the toilet can also be affected by ...
+
+Urinary Habits: How Many Toilet Trips Per Day is 'Normal'?
+Nov 5, 2018 - How often should you really be peeing—and most important: Do you ... But, “on average, people go about six to seven times per day," she says. How often you visit the loo is affected by a variety of different factors, such as ...
+
+Urinary Habits: How Many Toilet Trips Per Day is 'Normal'?
+Feb 9, 2017 - How many times do you have to go to the bathroom due to diarrhoea to pass out? ... times a day to once every three days, meaning the average person poops ...
+
+Normal Urinary Frequency - Bladder & Bowel Community
+Nov 1, 2017 - How much, and how often should a person poop? ... How often a person goes to the bathroom can vary a lot and depends on a range of factors ...
+
+Normal Urinary Frequency - Bladder & Bowel Community
+Nov 5, 2018 - How often should you really be peeing—and most important: Do you ... But, “on average, people go about six to seven times per day," she says. How often you visit the loo is affected by a variety of different factors, such as ...
+
+Urine 24-hour volume: MedlinePlus Medical Encyclopedia
+Apr 11, 2018 - A person will usually urinate more frequently at certain times of day and ... While no set number is considered normal, people on average urinate six or seven times a day. ... Male and female toilet sign. how often should you pee ... Many people urinate more frequently, especially at night, as they get older.
+
+How Many Times Should You Poop a Day: Factors and Frequency
+Apr 11, 2018 - A person will usually urinate more frequently at certain times of day and ... While no set number is considered normal, people on average urinate six or seven times a day. ... Male and female toilet sign. how often should you pee ... Many people urinate more frequently, especially at night, as they get older.
+
+Frequent Urination Causes, Symptoms, Treatment & Home Remedies
+Feb 9, 2017 - How many times do you have to go to the bathroom due to diarrhoea to pass out? ... times a day to once every three days, meaning the average person poops ...
+
+Frequent Urination Causes, Symptoms, Treatment & Home Remedies
+Jun 7, 2018 - On average, people will need to go to the bathroom around six to seven ... how often people should be heading to the bathroom each day and ...
+
+Nocturia: Causes, Treatments, and Prevention - Healthline
+Jun 7, 2018 - On average, people will need to go to the bathroom around six to seven ... how often people should be heading to the bathroom each day and ...
+
+Pooping: Frequency, normal amounts, and when to see a doctor
+Feb 21, 2019 - If you think you're peeing too often or not enough, you might be ... Frequent visits to the bathroom can be frustrating and discomforting. ... The frequency usually goes down as soon as the blood sugar levels are under control.
+
+Pooping: Frequency, normal amounts, and when to see a doctor
+How many times per day should we go to the toilet? We discuss the factors that can make people go more often, and the various signs that may indicate a health ...
+
+Nocturia: Causes, Treatments, and Prevention - Healthline
+How many times per day should we go to the toilet? We discuss the factors that can make people go more often, and the various signs that may indicate a health ...
+
+Normal Urinary Frequency - Bladder & Bowel Community
+This also applies to normal urinary frequency. For most people, the normal number of times to urinate per day is between 6 – 7 in a 24 hour period. Between 4 and 10 times a day can also be normal if that person is healthy and happy with the number of times they visit the toilet.
+
+Normal Urinary Frequency - Bladder & Bowel Community
+This also applies to normal urinary frequency. For most people, the normal number of times to urinate per day is between 6 – 7 in a 24 hour period. Between 4 and 10 times a day can also be normal if that person is healthy and happy with the number of times they visit the toilet.
+
+Answers                              Exact    Split    NoAnsExact    NoAnsSplit
+---------------------------------  -------  -------  ------------  ------------
+does a person go to the toilet in        0       23             0            22
+aday?                                    0        0             0             0
+
+
+>>> gbot.run()
+Capturing...
+OCR...
+9.
+At which MRT station did a
+woman have her leg stuck in a
+train platform gap on Monday?
+
+Dhoby Ghaut
+Jurong East
+
+Buona Vista
+At which MRT station did a woman have her leg stuck in a train platform gap on Monday?
+Dhoby Ghaut
+Jurong East
+Buona Vista
+
+
+Google: At which MRT station did a woman have her leg stuck in a train platform gap on Monday? Dhoby Ghaut Jurong East Buona Vista
+
+Trimmed:
+Dhoby Ghaut
+Jurong East
+Buona Vista
+
+Google: At which MRT station did a woman have her leg stuck in a train platform gap on Monday
+
+Trimmed:
+Dhoby Ghaut
+Jurong East
+Buona Vista
+
+
+
+
+
+BUGIS MRT STATION, SINGAPORE | BOOK OF INDONESIAN ... - 1297
+... di kanan Peron D Jalur Pusat, EW12 Referensi Girl s leg caught in MRT platform gap. Book of Indonesian Encyclopedia Promenade Nicoll Highway Stadium Mountbatten Dakota Bugis MRT Station, Singapore. ... Your address via SMS to mobile: ... mempunyai travelator setelah Stasiun MRT Dhoby Ghaut dan Serangoon.
+
+A woman got her leg caught in the gap of an Orange Line train — and ...
+Jul 2, 2018 - When a woman got her leg caught in the gap between an Orange ... according to a video of the accident the MBTA released Monday. ... Station at the peak of rush hour when she heard the woman scream. Immediately, a group of men were there to help push the train away from the platform, Polanco said.
+
+Singapore - HipTraveler
+#01-07b far East plaza, singapore, 228213, singapore ...... Monday - Friday: 11:30 am – 3:00 pm, 5:30 pm –10:00 pm; Saturday - Sunday: 11:30 am - 10:00 pm.
+
+Woman's leg trapped in between MRT train and platform at Buona ...
+Yea... and not to disregard the good that he did, but if he took that .... A woman fell after she was pushed and her right leg was caught in the gap from the knee down. ... on Monday and said that the emergency stop feature at the platform was ... stopped and that they would help her get her leg out of the gap.
+
+Frommer's Singapore & Malaysia - 6th Edition
+Back cover photo: Malaysia, Terengganu, Marang East Coast: Boats on the river ..... travels have taken her throughout the region, but she is now settled in ...... platform in Marina Bay with live per- ..... By Train. While most visitors to Singapore will arrive by air, some will come ...... 5-min. walk to Somerset or Dhoby Ghaut MRT.
+
+MRT Disruption Feed - Home | Facebook
+Oh my god stuck in the jam. Mampus ... STUCK: Woman's leg trapped in between MRT train and platform at Buona Vista station during peak hour ... We have a passenger leg trapped in the platform gap at Buona Vista Circle Line. ... Woman's leg gets stuck in platform gap at Buona Vista MRT station https://t.co/TtyUIRsF4A.
+
+Remix of "SingPoWriMo2016: Poems On The MRT" - ThingLink
+Remix of "SingPoWriMo2016: Poems On The MRT". by Ben See. 3 years ago 124. Edit. Made with. Learn more. Touch image. Share image... Fullscreen.
+
+Man Slammed Bystanders For Taking Photos When Woman's Leg ...
+3 days ago - Her leg had gotten caught in between the train and the platform. ... “Everything will be fine. ... When Woman's Leg Was Stuck at Buona Vista MRT Platform ... I, for one, have no idea whether the 7:30 eye candy really exists. ... during which her right leg went through the gap between train and platform and got ...
+
+Great New Places -
+Visitors to the coffee bookshop can also get their books signed by these content creators. ..... which includes the Cashew MRT Station and Bukit Panjang MRT Station. ..... Subrosa's food will take you through an East meets West journey, blending ..... Covetella also provides a platform whereby women can rent out their own ...
+
+Man calls for improvement to emergency response after woman gets ...
+3 days ago - ... after woman gets leg stuck in train platform gap during rush hour, ... Singapore, Singapore - December 27, 2013: One crowded MRT ( a rapid transit ... MH370 'may have secretly landed' · Auburn University gymnast Samantha Cerio broke both of her legs after ... The Monday morning rush hour is no joke.
+
+Mans Leg Stuck In Platform Gap At Bugis Mrt Station free mp3 ...
+PlayStopDownload · Women's leg stuck in Boon Keng MRT station platform gap mp3 ... PlayStopDownload · Girl gets her leg stuck between train at platform mp3 ...
+
+Woman's leg trapped in between MRT train and platform at Buona ...
+3 days ago - The woman fell after she was pushed and her right leg was caught in the gap ... platform at Buona Vista Station and an MRT train during the Monday morning ... stopped and that they would help her get her leg out of the gap.
+
+SMRT commuter's leg gets stuck in the gap between the platform and ...
+3 days ago - Lady's leg gets stuck in platform gap, people… ... New sensors at Jurong East MRT ... leg got caught in between the train and the platform at Buona Vista station at ... did another passenger activate the train's emergency stop button. ... systems must have its own set of first responders, trained first aiders, and ...
+
+Woman's leg stuck in platform gap at station, Transport News & Top ...
+2 days ago - A woman travelling on the MRT Circle Line got her leg trapped in the gap between the platform and a train that had stopped at Buona Vista station during ... and that he and the staff would help her get her leg out of the gap.
+
+Woman's leg trapped in between MRT train and platform at Buona ...
+3 days ago - A woman fell after she was pushed and her right leg was caught in the gap from the knee down. ... ALSO READ: MRT staff free man stuck in platform gap after cutting his pants ... This happened at 8:45am @ Buona Vista station. The train was full to the brim and passengers were rushing to get out of the train ...
+
+Circle Line service delayed during morning rush hour after woman's ...
+3 days ago - SINGAPORE — Train service on the Circle Line was briefly delayed during the ... The leg of a commuter was trapped in the platform gap at Buona Vista MRT on ... This happened at about 8.45am at Buona Vista MRT station, said SMRT ... grew "anxious" and raised his voice at the woman to move her leg.
+
+Woman's leg trapped in between MRT train and platform at Buona ...
+3 days ago - The woman fell after she was pushed and her right leg was caught in the gap ... platform at Buona Vista Station and an MRT train during the Monday morning ... stopped and that they would help her get her leg out of the gap.
+
+Circle Line service delayed during morning rush hour after woman's ...
+3 days ago - SINGAPORE: Train service on the Circle Line was briefly delayed during the morning rush hour on Monday (Apr 8) after a commuter's leg became ... ... Circle Line commuter leg trapped in platform gap ... Commuter Brandon Wong took to Facebook to describe the incident at Buona Vista MRT station.
+
+Answers        Exact    Split    NoAnsExact    NoAnsSplit
+-----------  -------  -------  ------------  ------------
+Dhoby Ghaut        2        2             0             0
+Jurong East        1        3             0             0
+Buona Vista        3        5             9            11
+
+
+>>> gbot.run()
+Capturing...
+OCR...
+10.
+
+What did Chris Hemsworth
+stuff in his daughter's shoes to
+increase her height to go ona
+
+ride?
+
+Snickers Bars
+Straws
+
+Playing Cards
+ What did Chris Hemsworth stuff in his daughter's shoes to increase her height to go ona ride?
+Snickers Bars
+Straws
+Playing Cards
+
+
+Google:  What did Chris Hemsworth stuff in his daughter's shoes to increase her height to go ona ride? Snickers Bars Straws Playing Cards
+
+Trimmed:
+Snickers Bars
+Straws
+Playing Cards
+
+Google:  What did Chris Hemsworth stuff in his daughter's shoes to increase her height to go ona ride
+
+Trimmed:
+Snickers Bars
+Straws
+Playing Cards
+
+
+
+
+
+press - MRC
+Counterpart: Why Starz' Sci-Fi Espionage Thriller is 2018's First Must-See Show ... Counterpart Is the Sci-Fi Spy Thriller You've Been Waiting For ..... producers who will act as mentors, and also get feedback from their fellow participants. ... and its independent studio, Media Rights Capital, on a new joint content venture.
+
+Chris Hemsworth Hid Snickers In Daughter's Shoes To Sneak Her On ...
+1 day ago - This led Chris Hemsworth to share how he once got his daughter, India, onto the Guardians of the Galaxy ride when she didn't meet the height requirement. ... of Snickers Bars and things and slammed then in the back of her shoe. ... the ride, his daughter lifted out of her seat and Chris had to hold her tight ...
+
+71 Best "Hotness Monsters" images | Dancing with the stars pros ...
+See more ideas about Dancing with the stars pros, Derek hough and Dream ... Attractive things that men do without realizing.yes yes and YES ❤️ ... Baseball Guys, Baseball Season, Hot Baseball Players, Softball, Hommes ...... Shirtless Chris Hemsworth Bares His Beefy Muscles—See the Pics! ...... Projet Bar Sirha 2015.
+
+You won't believe what Chris Hemsworth did to sneak his daughter ...
+16 hours ago - "I took my daughter on it a couple of years ago when it was previously called the Tower of Terror or something," Hemsworth said of the ride that's now called Guardians of the Galaxy — Mission: Breakout! ... "And they're like, 'Okay, in you come'," Hemsworth said to applause from the audience.
+
+Men's health usa january 2018 by Hasan20 - issuu
+Issuu is a digital publishing platform that makes it simple to publish ... Easily share your publications and get them in front of Issuu's millions of ... Chris Peel VP/PUBLISHER ... You'll feel like you did something even on lazy afternoons. 6. .... If you can do 2 reps without plopping onto the box, increase the weight by 5 pounds.
+
+Chris Hemsworth used Snickers to increase his daughter's height, get ...
+Chris Hemsworth admitted he broke Disneyland height requirements ... used Snickers to increase his ...
+
+Jeff the Killer (Pastamonsters)/Synopsis - Villains Fanon Wiki - Fandom
+After she demand Tails Doll go back to the vault, Jeff tries to stop her, which ..... BEN gives the Black Eyed Killer a bag of Black Stuff in case she can't afford to buy ...... Jeff confidently explains to BEN that Enderman is the worst card player in the ...... as BEN tells Jeff he once told Chris Hemsworth he loved Cabin in the Wood, ...
+
+'Avengers' co-stars shame Chris Hemsworth for using candy Bars to ...
+1 day ago - Johansson called Hemsworth an “irresponsible” parent and shamed the audience for applauding the story. ... Then the ride vehicle dropped and the force of the descent caused Hemsworth's seatbelted daughter to rise up off the seat. “I grab onto her and she's screaming all the way down,” Hemsworth said.
+
+https://www.latimes.com/nation/politics/politicsnow/la-pn-chelsea ...
+She later r Debbie Reynolds, with her daughter Carrie Fisher, 23 months old, smiles as ...... It was the first time the Police and Squeeze were on a record (in the U.S.). ...... auto mechanics sharing a Snickers bar, and accidentally meeting in the middle. ..... "I've got a bit of a deadline, but then I think I'll go out and raise a glass.
+
+Chris Hemsworth stuffed Snickers Bars into his daughter's shoes to get ...
+1 day ago - Chris Hemsworth has revealed his sneaky hack for getting his daughter past the height-restriction rule on a. ... The sneaky way Chris Hemsworth boosted his daughter's height so she could ride a rollercoaster .... strapped in and the seat is massive on her," he said, before explaining that as the ride dropped, ...
+
+'I repaid £90000 on a £250 car loan' - borrower lost his ... - This is Money
+Jul 3, 2012 - The victim of a loan shark has revealed how he was forced to repay £90000 on a £250 car loan - and was even forced to hand over a ... cheque; He took two jobs but lost both as poverty left him 'living on Mars Bars' ... The highest interest rate the team have come across is an APR of 117,000 per cent. It's not ...
+
+'Avengers' co-stars shame Chris Hemsworth for ... - The Mercury News
+16 hours ago - The actor says he put Snickers Bars in her shoes so that she would reach the ... Australian actor Chris Hemsworth is seen in the stands of the ... Come here.'” Hemsworth used Snickers candy Bars to boost his daughter's height after ... The Guardians of the Galaxy attraction takes riders on a comical and ...
+
+Chris Hemsworth put Snickers Bars in daughter's shoes to get her onto ...
+Chris Hemsworth stuffed Snickers Bars in the heels of his daughter's shoes so she was ... stuffed Snickers Bars into his daughter's shoes to give her a height boost. ... called the Tower of Terror or something," Hemsworth said of the ride that is now ... "Putting things in your daughter's shoes so she can go on a Disney ride???
+
+Chris Hemsworth reveals rollercoaster hack for his daughter | Daily ...
+1 day ago - Chris Hemsworth has revealed the moment he placed 'two Snickers Bars' in ... Bars in his young daughter's shoes so she was tall enough to go on a rollercoaster at Disneyland... but the terrifying ride almost ended in disaster .... Your browser does not currently recognize any of the video formats available.
+
+Chris Hemsworth reveals he stuck two Snickers Bars in his ... - Daily Mail
+1 day ago - Chris Hemsworth has revealed the moment he placed 'two Snickers Bars' in his daughter's shoes so she could ride a rollercoaster. ... to go on a rollercoaster at Disneyland... but the terrifying ride almost ended in disaster .... Your browser does not currently recognize any of the video formats available.
+
+Pro Dad Chris Hemsworth Stuffed Snickers In His Daughter's Shoes ...
+1 day ago - When the drop came, though, India rose out of her seat, and Chris had to hold onto her the whole ride, per his wildly animated explanation of ...
+
+Chris Hemsworth Put Snickers Bars In His Daughter's Shoes To Sneak ...
+14 hours ago - It sucks when you can't go on a ride you want to, and it sucks for the ... Snickers Bars and things, and slammed it in the back of her shoe ... pushed up the back of her feet enough to raise his daughter's height to the necessary limit. Clearly, she was really close to the limit, which is 40" if you're keeping score.
+
+Chris Hemsworth Put Snickers Bars In His Daughter's Shoes To Sneak ...
+14 hours ago - It sucks when you can't go on a ride you want to, and it sucks for the parents ... Bars and things, and slammed it in the back of her shoe under her heel. ... pushed up the back of her feet enough to raise his daughter's height to the ... Clearly, she was really close to the limit, which is 40" if you're keeping score.
+
+Answers          Exact    Split    NoAnsExact    NoAnsSplit
+-------------  -------  -------  ------------  ------------
+Snickers Bars        1        7             1            12
+Straws               0        0             0             0
+Playing Cards        0        0             0             0
+
+
+>>>

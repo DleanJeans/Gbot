@@ -1,0 +1,869 @@
+>>> gbot.run()
+Capturing...
+OCR...
+1.
+What is the name of
+Singapore's maior civilian
+airport?
+
+Paya Lebar Airbase
+Changi Airport
+
+Kallang Airport
+What is the name of Singapore's maior civilian airport?
+Paya Lebar Airbase
+Changi Airport
+Kallang Airport
+
+
+Google: What is the name of Singapore's maior civilian airport? Paya Lebar Airbase Changi Airport Kallang Airport
+
+Trimmed:
+Paya Lebar Airbase
+Changi
+Kallang
+
+Google: What is the name of Singapore's maior civilian airport
+
+Trimmed:
+Paya Lebar Airbase
+Changi
+Kallang
+
+
+
+
+
+Singapore Changi Airport – Travel guide at Wikivoyage
+The hotel price comparison service HotelsCombined means cheap Changi .... Changi Airport Group (CAG); Civil Aviation Authority of Singapore (CAAS) ... There is also a privately run luxury terminal called the JetQuay CIP Terminal. ...... Kallang (defunct); Paya Lebar Air Base; Seletar; Sembawang Air Base; Changi Airport.
+
+Why Changi Airport In Singapore Is Best In The World - YouTube
+Jul 8, 2018 - In the early 1970s, Paya Lebar Airport, Singapore's civil Airport then, did ... airlines using Changi Airport will also have to partly fund its major ...
+
+Singapore Changi Airport - Wikipedia
+Paya Lebar Airport was built to replace Kallang Airport and served as Singapore's commercial international Airport for 26 years until 1981, when it was converted into a military airbase.
+
+Changi Airport & East Coast Map - Singapore Maps - Singapore Guide
+Singapore's Changi Airport has been named the "World's Best Airport" six times. The buzzing ...
+
+Airports in Singapore | List of Singapore Airports | Singapore Airport ...
+The Kallang Airport was the first purpose-built civil international Airport in Singapore, opened ... As early as 1950, plans were made to build a new Airport at Paya Lebar (the current Paya Lebar Air Base) as the Kallang Airport was unable ... Kallang Airport got its name from the nearby Kallang Basin, which was named after a ...
+
+Singapore's Changi to be first foreign company to manage an Indian ...
+Operated by the Civil Aviation Authority of Singapore (CAAS), it serves as the base ... The Airport itself is a major contributor to Singapore's economy, employing ...
+
+Paya Lebar Air Base - Wikipedia
+Paya Lebar Air Base (PLAB) (IATA: QPG, ICAO: WSAP) is a military airbase of the Republic of Singapore Air Force located at Paya Lebar, in the central-eastern part of Singapore, the airbase goes by the motto of "Strength Through Readiness".
+
+Singapore Changi Airport – Travel guide at Wikivoyage
+Dec 9, 2015 - The operator of Singapore's Changi Airport is set to become the first foreign ... and Goa's new Airport have seen interest from names such as Swiss company ... A decision was taken at a meeting attended by PM Modi, civil aviation ... India begins major crackdown on online shopping from many Chinese ...
+
+Answers               Exact    Split    NoAnsExact    NoAnsSplit
+------------------  -------  -------  ------------  ------------
+Paya Lebar Airbase        0        7             0             3
+Changi Airport            4        5            14            18
+Kallang Airport           4        6             3             4
+
+
+>>> gbot.run()
+Capturing...
+OCR...
+2.
+Which is NOT in ABC juice?
+
+Asparagus
+Beetroot
+
+Carrot
+Which is NOT in ABC juice?
+Asparagus
+Beetroot
+Carrot
+
+
+Google: Which is NOT in ABC juice? Asparagus Beetroot Carrot
+
+Trimmed:
+Asparagus
+Beetroot
+Carrot
+
+Google: Which is NOT in ABC juice
+
+Trimmed:
+Asparagus
+Beetroot
+Carrot
+
+
+
+
+
+Beet-Carrot-Apple Juice Recipe | Food Network Kitchen | Food Network
+Apr 24, 2017 - Especially stringy textures, like with greens and Asparagus and hard, crumbly ... I like using orange juice in veggie smoothies because it adds a bit of natural ... (Sneakiness is not a good way to teach kids good lifelong eating habits.) ... ABC (Apple, Beet, Carrot) juice; Beet and Citrus Salad with Tarragon ...
+
+Celery juice is the latest wellness trend: Is it one you should follow ...
+Aug 14, 2018 - Nutritionists weigh in on the buzz around celery juice and its benefits. ... juicing for years and loves my green juice combo, I'm not one to hop on the trend train ... resident physician, currently working in ABC News' medical unit.
+
+ABC Detox Drink: Why Apple, Beetroot and Carrot is a Great ...
+Jul 23, 2018 - If you do not live in, say, San Francisco or Los Angeles or New York ... Lobster with Asparagus juice. ... Black bass with beet juice and caviar.
+
+Healthy Beet Carrot Apple Juice [aka ABC Juice] MasalaHerb.com
+Jan 3, 2019 - Beet Carrot Apple Juice is one of my favorite juice combinations out there because it's not only super healthy (cell repairing) but also very tasty!
+
+FATTY LIVER DIET JUICE RECIPE: carrots, apples, celery, beets ...
+Jan 5, 2018 - Drinking Beetroot juice would help the body to metabolise and use oestrogen ... Asparagus, celery and avocados could also boost your libido, ...
+
+Easy as ABC: Apple Beet Carrot Juice | Foodal
+Jan 3, 2017 - Use your juicer to make this delicious Apple Beet Carrot Juice. ... Apple seeds contain a small quantity of arsenic, and ingesting them is not ...
+
+Healthy Beet Carrot Apple Juice [aka ABC Juice] MasalaHerb.com
+Jul 30, 2016 - Juice them (remove skin for beet root alone) and consume right after making it. Do not store. How many carrots, apples or beets you add to the ...
+
+ABC Juice | Joe Cross
+This kid-friendly juice features apples, carrots and beets with just a touch of lemon. ... A and C. Carrots contain the ABC's of health as an excellent source of vitamins A, ... Reboots are not recommended for everyone, and before commencing a ...
+
+Foods you should eat on an empty stomach | Femina.in
+Juice, in this order, the beets, apples and carrots, following your juicer's specific settings for each. Stir in the chia seeds if using and let soak for 5 minutes.
+
+ABC (Apple, Beet, Carrot) juice - Foodess
+Sep 9, 2014 - I thought with back-to-school, an ABC (apple, beet, Carrot) juice was apt. ... The juice was just perfectly sweet – not too much so, but just enough ...
+
+Heres Why You Should Drink Beetroot And Carrot Juice Every Day ...
+Nov 8, 2017 - Lately, the trend of detoxification has become very popular amongst health enthusiasts. Starting your day with an invigorating detox drink not ...
+
+abc juice recipe - a beet juice for people who hate beets
+Mar 23, 2015 - This abc Juice recipe is truly the best way to eat beets, because I can’t even taste the beets, I can just taste sweet and healthy yumminess. ... In fact, they have a Smoothie and Juice in a Box, so you can make your own at home. ... Place your ingredients into your juicer and juice ...
+
+Learn How Carrot and Beetroot Juice is Amazing for Diabetics | Real ...
+Beet juice recipe---I've started drinking this for high blood pressure .... I personally add fresh juice to my diet and do not advocate juice cleanses or ...... Anti-Aging Juice Recipe : blend 2 Pears + 6 Carrots + Fennel + 2 Asparagus + 1 ..... ABC's of juicing Juice Drinks, Smoothie Drinks, Juice Smoothie, Smoothie Recipes, Fun ...
+
+ABC Juice (Apple Beet Carrot Juice) | Roti n Rice
+Nov 14, 2014 - You can make this healthy delicious ABC Juice (Apple Beet Carrot Juice) ... Even though I do not yet own a juicer, I was determined to make ...
+
+Apple Carrot Beet Ginger Juice | Minimalist Baker Recipes
+Jan 3, 2019 - Beet Carrot Apple Juice is one of my favorite juice combinations out there because it's not only super healthy (cell repairing) but also very tasty!
+
+ABC or the Apple, Beetroot and Carrot Juice: Your Next-Gen ... - Practo
+Jul 30, 2016 - Juice them (remove skin for beet root alone) and consume right after making it. Do not store. How many carrots, apples or beets you add to the ...
+
+Answers      Exact    Split    NoAnsExact    NoAnsSplit
+---------  -------  -------  ------------  ------------
+Asparagus        2        1             0             0
+Beetroot         3        3             1             1
+Carrot          11        8             9             7
+
+
+>>> gbot.run()
+Capturing...
+OCR...
+3.
+Which animal causes the most
+human deaths?
+
+Mosquitoes
+Sharks
+
+Snakes
+Which animal causes the most human deaths?
+Mosquitoes
+Sharks
+Snakes
+
+
+Google: Which animal causes the most human deaths? Mosquitoes Sharks Snakes
+
+Trimmed:
+Mosquitoes
+Sharks
+Snakes
+
+Google: Which animal causes the most human deaths
+
+Trimmed:
+Mosquitoes
+Sharks
+Snakes
+
+
+
+
+
+Chart of the day: You're probably not afraid of Australia's deadliest ...
+Apr 23, 2018 - But for this week's Giz Asks, we're asking which creatures are most desperate for our blood (or, in fairness to the animal ... Sharks and venomous Snakes kill about 1 American per year, cows more than 20. ... The most dangerous animal of course is the mosquito. ... The deaths occur for a couple of reasons.
+
+What are the world's deadliest animals? - BBC News
+Apr 25, 2017 - Surprisingly, the most dangerous animal to humans is not a large, sharp-toothed ... Human deaths caused by other humans, whether directly or ...
+
+What are the world's deadliest animals? - BBC News
+Apr 25, 2014 - Bill Gates introduces Mosquito Week on his personal blog, the Gates Notes. ... What would you say is the most dangerous animal on Earth? Sharks? Snakes? Humans? ... When it comes to killing humans, no other animal even comes close. ... It threatens half of the world's population and causes billions of ...
+
+Which Animal Kills the Most Humans in the US per Year? It's Not What ...
+Animal attacks are a cause of human injuries and fatalities worldwide. Up to five million people ... Human bites are the third most frequent type of bite after dog and cat bites. Dog bites are commonplace, with children the most commonly bitten ...
+
+Mosquito: el animal más letal del mundo Mosquitoes: World's ...
+Apr 26, 2017 - For comparison, humans are responsible for 580,000 human deaths per year, Snakes account for 60,000 deaths per year, and Sharks claimed just six ... by itself is responsible for more than half of mosquito-related deaths, ...
+
+These Animals Kill the Most Humans Every Year | Nature - BabaMail
+Aug 16, 2018 - Hippopotamus. The hippo is responsible for more human fatalities in Africa than any other large animal. Male hippos actively defend their ...
+
+These Are The Top 15 Deadliest Animals on Earth - ScienceAlert
+Aug 16, 2018 - The hippo is responsible for more human fatalities in Africa than any other large animal. ... The most dangerous creature in Africa is probably the mosquito ... It's the largest venomous snake in Africa with adults reaching an average 2.5m. ... There have been more than 200 Great White shark attacks off the ...
+
+Which Animal Kills the Most Humans? - Gizmodo
+These 20 species are responsible for the most human deaths each year.
+
+The world's deadliest animal isn't a shark or even a human | The ...
+Nov 26, 2018 - Photo: Horses and cows are more deadly than Sharks, Snakes and bee stings combined. (ABC News: Kristy O'Brien). Mosquitoes kill more than 700,000 people worldwide every year. Snakes ... Humans aren't included here, but definitely avoid them too. Deaths in Australia by animals between 2008 - 2017.
+
+10 animals that cause the most human deaths | KSL.com
+Jun 15, 2016 - What would you say is the world's most dangerous animal? ... Its venom is highly toxic and can kill a human being in under 45 minutes. ... Rabid dogs are responsible for the deaths of an estimated 25,000 people per year. ... a parasitic disease which causes fevers, headaches, and joint pain, followed by ...
+
+BBC - Travel - Africa's most dangerous animals
+Jun 15, 2016 - What would you say is the world's most dangerous animal? A shark? A tiger? What about a crocodile? Although these apex ... The sheer number of Mosquitoes adds to the risk they pose to humans. Unlike many other ... An estimated 50,000 people are killed every year by Snakes. The most venomous ...
+
+Which animal kills the most humans? - The Telegraph
+On the flip side, humans kill an average of 100-200 million Sharks per year. Who should fear ... The animal that causes the most human deaths every year? Deer.
+
+Which animal kills the most humans? - The Telegraph
+When we think of deadly animals, we tend to think of Sharks or Snakes. ... whereas Snakes kill an estimated 50,000 and Sharks a mere 10 (humans by ... or Japanese encephalitis, which causes more than 10,000 deaths per year, mostly in Asia.
+
+Deadliest Creatures You'll Find in the Ocean | Blue Planet Aquarium
+These 20 animals are responsible for killing the most humans each years. Some of these will ... These Animals Cause the Most Human Deaths Every Year.
+
+The 10 Most Dangerous Animals in the World - Condé Nast Traveler
+Feb 23, 2018 - The world's deadliest animal isn't a shark or even a human. ... Most of the deaths caused by animals, it turns out, have less to do with the animals ... Snake bites kill more than 100,000 people a year as of 2015. ... Malaria by itself is responsible for more than half of mosquito-related deaths, predominantly in ...
+
+The 10 Most Dangerous Animals in the World - Condé Nast Traveler
+Apr 23, 2018 - But for this week's Giz Asks, we're asking which creatures are most desperate for our ... animals kill the most humans, as well as which ones are the most potentially dangerous. .... The deaths occur for a couple of reasons.
+
+What are the world's deadliest animals? - BBC News
+Apr 18, 2018 - Data shows Mosquitoes kill 250,000 animals more each year when compared to humans ... responsible for 580,000 human deaths per year, Snakes account for ... But the number of deaths caused by the disease are dropping.
+
+What are the world's deadliest animals? - BBC News - BBC.com
+May 1, 2014 - 9 killer, causing 2,000 human deaths per year. Tapeworms most commonly reside in the intestines, but some cases have been documented of ...
+
+VERIFY: Are Mosquitoes really the deadliest animals on earth? | king5 ...
+Jul 27, 2018 - Look at the chart and you can see how many more deaths Gates is claiming come ... are only six fatalities that are attributable to...shark attacks worldwide, each year. ... the number of estimated snake fatalities each year has gone up. in 2018, The ... The top causes come from mosquito delivered diseases.
+
+These Are The Top 15 Deadliest Animals on Earth - ScienceAlert
+Feb 23, 2018 - The world's deadliest animal isn't a shark or even a human. ... Most of the deaths caused by animals, it turns out, have less to do with the ...
+
+Answers       Exact    Split    NoAnsExact    NoAnsSplit
+----------  -------  -------  ------------  ------------
+Mosquitoes        2        1             0             0
+Sharks            2        1             1             0
+Snakes            2        1             0             0
+
+
+>>> gbot.run()
+Capturing...
+OCR...
+4.
+Who is Frankenstein in Mary
+Shelley's Book?
+
+The monster
+The creator of the monster
+
+The monster's lover
+Who is Frankenstein in Mary Shelley's Book?
+The monster
+The creator of the monster
+The monster's lover
+
+
+Google: Who is Frankenstein in Mary Shelley's Book? The monster The creator of the monster The monster's lover
+
+Trimmed:
+
+creator of the monster
+monster's lover
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "G:\Python\GBot\gbot.py", line 99, in run
+    run_image(image)
+  File "G:\Python\GBot\gbot.py", line 90, in run_image
+    answer(q)
+  File "G:\Python\GBot\gbot.py", line 124, in answer
+    points_dict[SPLIT] = count.splitted(plain, answers)
+  File "G:\Python\GBot\count.py", line 19, in splitted
+    count = max([splitted_text.count(word) for word in a.split()])
+ValueError: max() arg is an empty sequence
+>>> gbot.run()
+Capturing...
+OCR...
+5.
+Which isn't a kind of laughter?
+
+Cackling
+Tattling
+
+Chortling
+Which isn't a kind of laughter?
+Cackling
+Tattling
+Chortling
+
+
+Google: Which isn't a kind of laughter? Cackling Tattling Chortling
+
+Trimmed:
+Cackling
+Tattling
+Chortling
+
+Google: Which isn't a kind of laughter
+
+Trimmed:
+Cackling
+Tattling
+Chortling
+
+
+
+
+
+Literary Issue 2015 by The Tattler - issuu
+Read 7: This Isn't Love from the story At Everleigh's by marjaery (novice ... He should know what kind of girl she is already. + ... He suddenly starts Chortling behind his hand and showed his phone to us. + ... I thought you don't tittle-tattle bro. ... Rafael said wiping the tears on his eyes because of laughing too much, his red ...
+
+A laughing matter - American Psychological Association
+Psychologists are finding that the ancient roots of laughter predate the idea of ... behavior with nonkin to an extent that isn't seen in other species," she says.
+
+CACKLE • DICTONARY.NET • Definition of Cackle
+“Because hyung isn't out there and then neither are you. He knows you just ..... Some kind of awakening phoenix on his chest and abdomen, flanked by evil looking black kois. ..... Nicole's cackles are thoroughly unwelcome, as is Changmin's laughter. ...... Changmin is Chortling gleefully as he pops a cherry into his mouth.
+
+Why do humans laugh? The evolutionary biology of laughter.
+Mar 25, 2014 - Provine discovered that the laughter of our everyday lives isn't for the ... sort of laughter emerged—the non-Duchenne sort, the kind that isn't ...
+
+Portraits of Laughter in “Kid”ergarten Children: The ... - VTechWorks
+This transcript isn't tidy! This page's ... [laughter] [Sebastian] King Triton ruled the seas with a fair hand... - Yoo-hoo! ..... [electrical sizzling] - [Chortling] [speaking in baby talk] Oh, yes. Mommy ... She'll tattle. ... [Cackling] - [growling] Keep going!
+
+BBC - Future - Why do we laugh inappropriately?
+Mar 23, 2015 - “They start laughing as soon as they see there isn't blood and bones ... have looked at the way the brain responds to each kind of laughter.
+
+Chortling - definition of Chortling by The Free Dictionary
+Stephen King ..... He stopped laughing and held out the hand that wasn't supporting Gage's ..... comes to tattle on autumn every year. ..... “Ellie,” he said, rocking her, “Ellie, Ellie, Church isn't dead; he's right over there, sleeping.” ...... The brisk crackling sound of the bag seemed to bring Jud back to this here and now.
+
+10 things you may not know about laughter - BBC News
+Oct 26, 2014 - 2. Laughter isn't about jokes. Ask adults what makes them laugh, and most will tell you it's jokes and humour. But they would be wrong.
+
+laugh, chuckle, giggle, titter, snicker, guffaw, snort ...
+Jan 14, 2015 - Your melodic laughter that Colors the breeze in E-flat Major. .... ALL THE NEWS THATâ&amp;#x20AC;&amp;#x2122;S FIT TO TATTLE .... But I guess it is a good excuse to give people presents, be kind, and let me do whatever I want for .... “I've been to the café, and there isn't any coffee here, or in a ten mile radius.
+
+Why Is Laughter Sometimes Scary? - Live Science
+Oct 28, 2018 - And if that laughing person isn't a person at all — if it's, say, a robot or a doll, something that's supposed to ... That would be kind of funny, right?
+
+laugh - Dictionary Definition : Vocabulary.com
+Definition of Cackle at Dictonary.net. ... Emit a loud, unpleasant kind of laughing. ... dominant monotone above all the talk and the cackle of laughter; ears were dinned everlastingly by the ..... They cabal, and tattle, and hiss, and cackle comminations under their breath. ..... And that terrible chaperon of yours isn't here either.
+
+The science of laughter – and why it also has a dark side
+Apr 27, 2017 - The truth is that laughter isn't always positive or healthy. According to science, it can be classified into different types, ranging from genuine and ...
+
+Types of Laughing - Vocabulary List : Vocabulary.com
+Apr 18, 2006 - In the deepest of senses the children knew the kind of teacher and person I .... Cackle: First involuntary stage; pitch is higher and body begins to rock, spine ...... relentlessly tattle and gossip in, she also listened to me like a ...... Karla: “Because the big ones want to grow and there isn't enough room for all.
+
+15 Ways to Laugh Online | Mental Floss
+May 15, 2015 - The classic acronym for laughing out loud (it may once have meant "lots of love" or "little old lady," but it doesn't anymore). However, lol has been around long enough now that it doesn't really mean out-loud laughter either—linguist John McWhorter says it now indicates empathy.
+
+9 Ways to Laugh - Everything After Z by Dictionary.com
+Define Chortling. Chortling synonyms, Chortling pronunciation, Chortling translation, English ... 1. chuckle, laugh, cackle, guffaw He began Chortling like an idiot.
+
+Why do people have different laughs? - Mashable
+Nov 30, 2014 - This 'lie' can create a different tone or type," she says. We're also ... Despite having linguistic properties, laughter isn't as limitless as language.
+
+Answers      Exact    Split    NoAnsExact    NoAnsSplit
+---------  -------  -------  ------------  ------------
+Cackling         0        0             0             0
+Tattling         0        0             0             0
+Chortling        1        1             0             0
+
+
+>>> gbot.run()
+Capturing...
+OCR...
+6.
+Which was the first Pokemon to
+be designed?
+
+Bulbasaur
+Pikachu
+
+Rhydon
+Which was the first Pokemon to be designed?
+Bulbasaur
+Pikachu
+Rhydon
+
+
+Google: Which was the first Pokemon to be designed? Bulbasaur Pikachu Rhydon
+
+Trimmed:
+Bulbasaur
+Pikachu
+Rhydon
+
+Google: Which was the first Pokemon to be designed
+
+Trimmed:
+Bulbasaur
+Pikachu
+Rhydon
+
+
+
+
+
+Which is the first Pokémon? | Pokémon | Know Your Meme
+5.7.1 Pokémon: Let's Go, Pikachu! and Let's Go, Eevee! ... Rhydon made its English dub debut in Showdown at Dark City, under the ownership ... Blue's Rhydon was briefly seen in File 4: Charizard where it battled Red's Lapras and lost. ... It is forced to evolve by its Trainer with a mysterious injection, being the first evolution ...
+
+Bulbasaur Isn't Neccesarily The First Pokémon - Kotaku
+After the games, a Pokémon Trading Card Game was developed by Media Factory with its own set of rules. The first set of cards was released on October 20, ...
+
+Pokemon question time GD, what was the first pokemon? - Boards ...
+... Pokemon? A Bulbasaur B Mew c Rhydon o Arceus ... James Jessie Pikachu cartoon anime fictional character fiction mangaka ... Bulbasaur is the first recorded Pokemon in history. ... Rhydon is the first ever Pokemon GameFreak created.
+
+What is the first Pokemon ever? - Quora
+Below is a timeline of events in the history of the Pokémon world, primarily those .... The first Pokémon created by scientific engineering, Porygon, is created.
+
+Which Is the First Pokemon? A Bulbasaur B Mew C Rhydon D Arceus ...
+Pikachu; Bulbasaur; Squirtle; Charmander .... Rhydon was the first Pokémon created by a human being in real life, as in the first to ever reach ...
+
+Rhydon was the first Pokemon ever created - Nintendo Everything
+First pokemon created in the game, but not the "first" in the lore. 41 ..... The question isn't "the first to be designed" or something like that, it is simply the "first ...
+
+Can you answer this Pokemon question for $1,000,000? | IGN Boards ...
+A Bulbasaur B Mew c Rhydon D Arceus askradicalgoodspeed: Well fuck you too ... all Pokemon Rhydon was the first Pokemon ever created, and Arceus created ...
+
+The First Pokemon Ever Created Isn't What You Think - Blogs ...
+Pokémon also known as Pocket Monsters in Japan, is a media franchise managed by The ... The first live action film in the franchise Pokémon: Detective Pikachu, based on Detective ... a wild Pokémon is able to capture that Pokémon by throwing a specially designed, mass-producible spherical tool called a Poké Ball at it.
+
+Which Were The Very First Pokémon Created By Game Freak ...
+Oct 18, 2013 - Bulbasaur is #1 on the Pokedex Mew was ... Rhydon was the first Pokemon made by Game Freak ..... how is Pikachu not one of the answers.
+
+Arceus (Pokémon) - Bulbapedia, the community-driven Pokémon ...
+Nov 12, 2011 - The first few Pokémon created during the development of Pokémon Red and Green (Blue outside of Japan) were Rhyhorn, Lapras and Clefairy ...
+
+The First Pokemon Ever Created Isn't What You Think - Blogs ...
+Nov 12, 2011 - No, it wasn't Pikachu or the three original starters. ... Or Bulbasaur, Charmander or Squirtle. The first few Pokémon created during the development of Pokémon Red and Green (Blue outside of Japan) were Rhyhorn, Lapras and Clefairy, each with their own predetermined roles, such as carrying baggage, ...
+
+10 Oldest Pokémon in Existence | Oldest.org
+Jan 23, 2015 - In real life, the first Pokemon is not what appears in the Pokedex first, or what legendary Pokémon is said to have created everything. In fact, the ...
+
+What is the first Pokemon ever? - Quora
+Jul 24, 2016 - Rhydon battles Charizard - Rhydon was the first Pokemon created ... You'll also find Rhydon listed as the first Pokemon in Pokemon Red and ...
+
+Bulbasaur Isn't Neccesarily The First Pokémon - Kotaku
+Dec 4, 2017 - The first pokemon ever created was Rhydon from Generation 1 but the First pokemon in the Pokedex is the Gen 1 starter, Bulbasaur.
+
+Bulbasaur Isn't Neccesarily The First Pokémon - Kotaku
+Dec 4, 2017 - Unlike Bulbasaur, being the first designed makes it the first chronlogically in one way. If “first Pokémon ever” refers to in real life, then Rhydon is definitely the ...
+
+Pokémon - Wikipedia
+May 30, 2010 - If you were to ask someone what the first Pokemon ever created is, you'd probably receive answers such as Pikachu and Bulbasaur. In actuality ...
+
+Rhydon was the first Pokemon ever created - Nintendo Everything
+Jan 23, 2015 - Pokedex-wise, yes, Bulbasaur is the first Pokemon; it comes before all others. ... In fact, the first Pokémon ever designed in real life—the first monster written into the code of the ... Got RhyHORN and Rhydon confused.
+
+What is the first Pokemon ever? - Quora
+Jul 24, 2016 - When most people think of the first Pokemon created, they tend to assume Pikachu was the original capsule monster. If the little yellow mouse ...
+
+Answers      Exact    Split    NoAnsExact    NoAnsSplit
+---------  -------  -------  ------------  ------------
+Bulbasaur       11        7             4             2
+Pikachu          5        3             3             2
+Rhydon          16       16             2             2
+
+
+>>> gbot.run()
+Capturing...
+OCR...
+7.
+Which Chinese dialect is the
+most used in Singapore?
+
+Hakka
+Cantonese
+
+Hokkien
+Which Chinese dialect is the most used in Singapore?
+Hakka
+Cantonese
+Hokkien
+
+
+Google: Which Chinese dialect is the most used in Singapore? Hakka Cantonese Hokkien
+
+Trimmed:
+Hakka
+Cantonese
+Hokkien
+
+Google: Which Chinese dialect is the most used in Singapore
+
+Trimmed:
+Hakka
+Cantonese
+Hokkien
+
+
+
+
+
+Chinese Language in Bangkok - Stuart's Life in Thailand
+On a serious note, as most of the Singaporeans' ancestors hail from the south of China, their dialect is either Hokkien, Teochew, Cantonese, or Hakka.
+
+A Guide To Singapore's Languages - Culture Trip
+Oct 30, 2018 - The other three official languages of Singapore—Mandarin, Malay, and Tamil—are ... and South Korea, which make adopting English in daily use more difficult. ... the array of Chinese dialects spoken by older Singaporeans.
+
+Cantonese: Language or dialect? | Unravel Magazine
+Jan 4, 2006 - In recent comments, Kitjar wondered what dialect is most commonly spoken in ... it made me wonder which Chinese dialect is most common here in Bangkok. ... and Singapore where they form the largest Chinese dialect group. ... to the Cantonese dialect, but part of the Min or Fujianese (Hokkien) dialect.
+
+English most common home language in Singapore, bilingualism also ...
+Dec 11, 2017 - THE BUSINESS TIMES Life &amp; Culture - [SINGAPORE] Kevin Martens ... It is the Chinese dialect that is most common in Singapore but it has ...
+
+Are dialects dying out? - Nation | The Star Online
+Sep 1, 2015 - Today, Cantonese is the third most widely spoken Chinese language, with an ... A common definition of “dialects” is that language varieties must be ... As such, when people in Singapore refer to the “Chinese language”, they are ... be referring to Hokkien, Cantonese, Teochew, Hakka, Hainan, or Min Nan.
+
+The Power Dynamics of Chinese Dialects in Singapore | Facebook
+Feb 28, 2018 - This article is about different languages that are used in Singapore, and the ... These emigrants mostly speak different dialects of Chinese ...
+
+In Singapore, Chinese Dialects Revive After Decades of Restrictions ...
+Aug 2, 2015 - In Singapore, three decades of the 'Speak Mandarin Campaign' and ... Does the same fate await Hokkien, Hainan, Teochew, Hakka and Cantonese in ... The use of Chinese dialects has reduced significantly in the ... Although Cantonese is still widely spoken in Kuala Lumpur and Ipoh, and Hokkien is still ...
+
+In Singapore, Chinese Dialects Revive After Decades of Restrictions ...
+The dialect group composition of the Singapore Chinese resident population had remained .... TABLE 4 LANGUAGE MOST FREQUENTLY SPOKEN AT HOME.
+
+Languages of Singapore - Wikipedia
+Aug 26, 2017 - “Singapore used to be like a linguistic tropical rain forest ... by linguists, that language was a zero-sum game: speaking more of one meant less mastery of another. ... spoken) and Guangdong (home to Cantonese, Teochew, and Hakka). ... The government clamped down on Chinese dialects like Hokkien for ...
+
+What is the Chinese dialect used in Singapore? - Quora
+Aug 21, 2018 - Singapore also uses the simplified form for writing Chinese words. The Chinese diaspora comprises about three quarters of Singapore's population, many hailing from the southern part of China where the most widely spoken dialects include Hokkien, Teochew, Cantonese, and Hainanese.
+
+Varieties of Chinese - Wikipedia
+Jump to <a class="fl" href="https://en.wikipedia.org/wiki/Languages_of_Singapore#Other_Chinese_varieties" onmousedown="return rwt(this,'','','','14','AOvVaw0ke1l5L_2BVIU2zbrnaeJd','','2ahUKEwjvjY_O4sThAhVB7WEKHUZlCeEQygQwDXoECAcQBg','','',event)">Other <b>Chinese</b> varieties</a> - For instance, most Chinese Singaporeans can speak English and Mandarin. Some, especially the older generations, can speak Malay and additional Chinese varieties such as Hokkien, Teochew, Cantonese, Hakka, and Hainanese.
+
+Languages of Singapore - Wikipedia
+Mar 10, 2016 - English most common home language in Singapore, bilingualism also ... But the use of other Chinese dialects and Malay has fallen steadily.
+
+Chinese Singaporeans - Wikipedia
+Jump to <a class="fl" href="https://en.wikipedia.org/wiki/Varieties_of_Chinese#Dialect_groups" onmousedown="return rwt(this,'','','','13','AOvVaw31JBMWpHgaYWupKBrFZWJA','','2ahUKEwjvjY_O4sThAhVB7WEKHUZlCeEQygQwDHoECAgQBg','','',event)"><b>Dialect</b> groups</a> - Classifications of Chinese varieties in the late 19th century and early 20th ... and were hence called by the umbrella term "Hakka–Gan dialects". ... It is also the most diverse, with many of the varieties used in neighbouring ... Asia, where they are known as Hokkien (named from a dialectical ...
+
+Languages of Singapore - Simple English Wikipedia, the free ...
+Chinese dialects have been a predominant feature in Singapore society since our ... The spoken Hokkien dialect, being the form of communication most ...
+
+Which Chinese ancestry (Hokkien, Teochew, Hakka, Cantonese, etc ...
+Chinese Singaporeans are Singaporeans of full or partial Chinese – particularly Han Chinese ... The Hakka, Henghuas, Foochows and other groups account for most of the ... Singaporean Hokkien does not include northern Fujianese such as those ... The Cantonese make up 15% of the Singaporean Chinese population.
+
+Can I live in Singapore and only speak English? - Quora
+Aug 26, 2017 - “Singapore used to be like a linguistic tropical rain forest — overgrown, ... over the centuries from several mostly southern Chinese provinces, ...
+
+Languages of Singapore - Wikipedia
+Nov 1, 2018 - I am quite certain that Hokkien is the most common ancestry of all ... ... Is Hakka dialect still spoken in China? Which province has the most ...
+
+Languages of Singapore - Wikipedia
+Jan 14, 2017 - There used to be more Chinese dialect use in Singapore, but the government's “Speak Mandarin Campaign” started in 1979 took a number of ...
+
+Answers      Exact    Split    NoAnsExact    NoAnsSplit
+---------  -------  -------  ------------  ------------
+Hakka            9        2             0             0
+Cantonese       11        5             1             0
+Hokkien         11        5             2             1
+
+
+>>> gbot.run()
+Capturing...
+OCR...
+8.
+What is responsible for the
+numbing effect in Mala dishes?
+
+Sichuan Peppercorns
+Sand Ginger
+
+Poppy Seeds
+What is responsible for the numbing effect in Mala dishes?
+Sichuan Peppercorns
+Sand Ginger
+Poppy Seeds
+
+
+Google: What is responsible for the numbing effect in Mala dishes? Sichuan Peppercorns Sand Ginger Poppy Seeds
+
+Trimmed:
+Sichuan Peppercorns
+Sand Ginger
+Poppy Seeds
+
+Google: What is responsible for the numbing effect in Mala dishes
+
+Trimmed:
+Sichuan Peppercorns
+Sand Ginger
+Poppy Seeds
+
+
+
+
+
+Culinary Herbs and Spices of the World - Literacias
+this book and cannot be held legally responsible or accept liability for any ... other harmful effects resulting from using any plant in this book. ..... strong flavours, including Sichuan pepper or hua ... seed, hemp seed, ground Ginger and nori seaweed. .... Malaysian cuisine is a mixture of Malay, Chinese, ...... numbing effect.1.
+
+Mala (Spicy and Numbing) Broth for Sichuanese Hot Pot - Tiny Urban ...
+Oct 26, 2018 - This habit-forming numbing effect is different from what's traditionally considered spicy. Mala, of course, is one of the qualities that makes Sichuan food so good. But these ... Unlike many other Panda dishes, there's no sweet sauce. ... Half an hour after I ate this chicken, my mouth was still pleasantly tingling.
+
+Szechuan Pepper Stir Fry Recipe - YouTube
+For information on szechuan cooking, visit The Australian Gourmet Pantry. ... There are many ways to spell this ...
+
+Tingly Lips? Why Sichuan Peppers Trigger Odd Sensation
+Aug 27, 2014 - 15 years ago, I'd have characterized Sichuan cuisine as little more than fiery ... a tingly numbness in the mouth caused by hydroxy-alpha sanshool. ... tingling, buzzing, numbing sensation that is something like the effect of ...
+
+Spice Pages: Sichuan Pepper (Zanthoxylum, Szechwan peppercorn ...
+Informative article about the spice Sichuan Pepper (plus its Indian, Tibetan, Nepali and ... Sichuan pepper and others (Zanthoxylum piperitum, simulans, bungeanum, .... Dried fruits and Seeds of the Korean species Z. schinifolium (sancho [산초]) ... is their unpleasant, gritty texture that almost feels like Sand between the teeth.
+
+Sichuan Peppercorns revealed: why they are numbing and the best ...
+Oct 23, 2017 - The distinctive numbing flavor of Sichuan peppers defines the region's ... those who love Sichuan cuisine can savor the world's most electric spice. ... It is literally electric: The active ingredient, sanshool, causes a vibration on ... The combination of the two, mala, is what we typically think of as Sichuan flavor.
+
+Mala sauce - Alchetron, The Free Social Encyclopedia
+Feb 18, 2018 - Mala sauce is a popular oily spicy and numbing Chinese sauce ... Similar Sichuan pepper, Malatang, Hot pot, Chili oil, Mapo doufu ... Regarded as a regional dish for Chongqing cuisine and Sichuan cuisine, it has ... Other herbs and spices, such as Sand Ginger, Angelica dahurica and Poppy Seeds, can be ...
+
+Why Szechuan Peppers Make Your Lips Go Numb | Science ...
+Apr 17, 2014 - It's the Sichuan peppercorn in dishes like spicy ma po tofu that makes ... Researchers wanted to know if that buzz is connected to the tingling you feel ... its buzz, only the big ones responsible for touch and vibration reacted.
+
+Spices - Clovegarden
+Spices are natural flavoring elements, most often dried Seeds, but some, mostly roots, are ... Medieval recipes call for many spices but fail to give any quantities. ..... It also has quite a bit of the tongue numbing effect found with Sichuan Peppercorns. ..... Cekur (Malay); Sha Jiang (China (Sand Ginger)); Kaempferia galanga]
+
+Mala sauce - Wikipedia
+Oct 25, 2017 - Learn how to make crispy, hot and numbing chongqing style dry-fried chicken with dried .... Authentic Szechuan Chicken recipe—Mala Chicken.
+
+Kiss your lips goodbye, and savor the mouth-numbing spice at the ...
+Jul 11, 2017 - Sichuan (or Szechuan) peppers are used in this spicy dish of Szechuan-style ... THE LIP-TINGLING, mouth-numbing effect of Sichuan (or Szechuan) pepper is so ... from the colored husk that surrounds a tiny (tasteless) black seed. ... alcohol usually made from sorghum (Poppy offers a large selection), and ...
+
+Prickly-Ash Pepper - Buy online | Spice Trekkers
+Dec 24, 2009 - Mala (Spicy and Numbing) Broth for Sichuanese Hot Pot ... while the Peppercorns have an unusual numbing effect on the tongue. _1000666. I recently tried a home-version of the mala broth based on a recipe by Fuchsia ...
+
+Sichuan pepper - WikiVisually
+Recipes often suggest lightly toasting the tiny seed pods, then crushing them before ... Star anise and Ginger are often used with it in spicy Sichuan cuisine. It has an alkaline pH and a numbing effect on the lips when eaten in larger doses. ... 麻辣; pinyin: málà; literally "numbing and spicy"), common in Sichuan cooking, is a ...
+
+Sourcing Hua Jiao (Sichuan Peppercorn) | The Mala Project ...
+Sep 10, 2013 - The active ingredient in Sichuan peppers causes numb and tingly lips by ... to foods throughout the region, and often cause a tingly, numb ...
+
+Sichuan pepper - Wikipedia
+Sichuan pepper, Sichuan peppercorn, Szechuan pepper, or Szechuan peppercorn, is a .... Recipes often suggest lightly toasting the tiny seed pods, then crushing them ... Star anise and Ginger are often used with it in spicy Sichuan cuisine. It has an alkaline pH and a numbing effect on the lips when eaten in larger doses.
+
+Sichuan cuisine - Wikipedia
+Jul 6, 2017 - Hua jiao, famous for its numbing properties, is indigenous to ... for their famously numbing properties, believed to be caused by the ... Culinary scientist Harold McGee gives an evocative description of the Peppercorns' effect in his book, On Food ... A food stall in Chengdu, where dishes containing Sichuan ...
+
+Mala sauce - Wikipedia
+The term málà is a combination of two Chinese characters: "numbing" (麻) and "spicy (picant)" (辣), referring to the feeling in the mouth after eating the sauce. The numbness is caused by Sichuan pepper, which contains 3% hydroxy-alpha-sanshool.
+
+Sichuan pepper - Wikipedia
+Sep 10, 2013 - ... notice a more subtle effect of eating the hot peppers: a tingling, numbing sensation ... Hydroxy-alpha-sanshool, the molecule responsible for Szechuan ... in petri dishes, the sanshool molecule caused fibers associated with ...
+
+Answers                Exact    Split    NoAnsExact    NoAnsSplit
+-------------------  -------  -------  ------------  ------------
+Sichuan Peppercorns        1       17             1            13
+Sand Ginger                0        0             0             0
+Poppy Seeds                0        0             0             0
+
+
+>>> gbot.run()
+Capturing...
+OCR...
+9.
+Which country does NOT have
+McDonald's?
+
+Bolivia
+Panama
+
+Venezuela
+Which country does NOT have McDonald's?
+Bolivia
+Panama
+Venezuela
+
+
+Google: Which country does NOT have McDonald's? Bolivia Panama Venezuela
+
+Trimmed:
+Bolivia
+Panama
+Venezuela
+
+Google: Which country does NOT have McDonald's
+
+Trimmed:
+Bolivia
+Panama
+Venezuela
+
+
+
+
+
+The list of supported countries - Wirex
+Sep 10, 2014 - Migration between Latin American countries. ... Latin America. 5,4. 5,9. 0,9. Argentina. 4,4. 2,5. -1,9. Bolivia. 4,7. 4,0. 0,1 ... Venezuela. 6,3 ... 8The oil crisis in 1973 did not decisively affect Latin America, as the producing .... Brazil, Panama, and Chile have had better results in fighting poverty while Ecuador, ...
+
+Where In The World Are There No McDonald's? : The Salt : NPR
+Jan 15, 2018 - In the United States, you can barely be 100 miles from a McDonald's. Because of this, it might come as a surprise that some countries don't ...
+
+Around the World | McDonald's
+Critics have excoriated the US fast-food industry in general, and McDonald's most ... consulted for McDonald's or any other fast food company, and does not ... in a country of fast-food chains in general, and McDonald's in particular, is also a .... Before it opened in Bolivia, McDonald's required the two local individuals who.
+
+Which countries don't have a McDonald's? - Quora
+Jun 1, 2016 - If you want to get technical, Bermuda doesn't have a McDonald's but the U.S. State Department doesn't recognize them as a country. As you'll ...
+
+Where In The World Are There No McDonald's? : The Salt : NPR
+But there is one Latin American country that flat out rejected Big Macs .... McDonald's failed Because food in ...
+
+10 countries that banned McDonald's - Telegraph
+Sep 15, 2017 - McDonald's restaurants seem to be everywhere, but there are still countries that do not have any golden arch restaurant. Guess what they are ...
+
+McDonald's Returns to Bolivia after 13 Years - PanAm Post
+Nov 15, 2011 - Fast Food off the Shelf is a documentary that explores why Bolivia was the only ... 7 in Paraguay, 20 in Peru, 19 in Uruguay and 180 in Venezuela. ... (and not the only one: the country has already showed leadership in ... TH: How much do you think food tradition had to do with the closing of McDonald's?
+
+List of countries with McDonald's restaurants - Wikipedia
+Here is just a selection of 10 of these countries where you'll have to make do with the local variety of fast food: 1. North Korea (ok, not so surprising here). 2.
+
+Why Bolivia Allows KFC and Starbucks, but Bans McDonald's -- The ...
+Wirex has been successfully growing over the years and providing our users with more and more convenient and ... So please don't get upset if your country doesn't have Wirex yet: we're already halfway there! ... Bolivia, Plurinational State of .... Heard Island and McDonald Islands ..... Venezuela, Bolivarian Republic of. N/A.
+
+Countries Without McDonald's Restaurants - WorldAtlas.com
+Aug 8, 2013 - There are still many countries that do not host one of the fast-food ... have gotten one last taste of a McDonald's burger before he passed away, ...
+
+List of countries with McDonald's restaurants - Wikipedia
+Canada · Costa Rica · El Salvador · Dominican Republic · Honduras · Mexico · Nicaragua · Panama · Puerto Rico · Sint Maarten · United States ...
+
+BBC NEWS | Business | McDonald's pulls out of Iceland
+Aug 1, 2013 - McDonald's may seem to be everywhere, but there are still 105 countries without the fast food giant, from Ghana to Jamaica to Yemen to Tajikistan. And in six countries, McDonald's once had a presence, but due to economics, and sometimes politics, the franchises closed.
+
+10 Countries With the Most McDonald's Locations - Investopedia
+Aug 1, 2013 - Countries like Cambodia still have yet to gain their own McDonald's ... in the case of Bolivia, the government said they'd rather not have fries ...
+
+10 Countries With the Most McDonald's Locations - Investopedia
+Sep 10, 2010 - ... and found this article: A List of Countries That Don't Have McDonald's dated June ... Did you know that unlike searching on DuckDuckGo, when you search on ...
+
+Number of McDonald's Restaurants Worldwide - ThoughtCo
+Mar 23, 2015 - Fast-food chain McDonald's is to open its first outlet in Bolivia in April, 13 years after leaving the country due to a lack of ... Venezuela: The Danger of Ron Paul's Support for the Maduro… ... Cuba and Bolivia are alone in Latin America and the Caribbean in not hosting the .... Click below to get started.
+
+Number of McDonald's Restaurants Worldwide - ThoughtCo
+Nov 9, 2016 - We bet you didn't know that McDonald's is banned in ten countries. ... But the fast-food giant does not always have such an easy time setting up ...
+
+Where In The World Are There No McDonald's? : The Salt : NPR
+Jul 11, 2014 - McDonald's (NYSE:MCD) failed in Bolivia. It operated in the country for 14 years and eventually closed all of its locations by 2002 amid cultural rejection from locals and the government. Aside from Cuba, Bolivia is the only Latin American country without golden arches.
+
+Mapped: The countries which don't have a McDonald's
+This is a listing of countries with McDonald's restaurants. McDonald's is the largest chain of fast ... 54, (source: McDonald's 2013), 84,925, Third country (not U.S. possession) and first ... Hong Kong was then a British Crown colony/Dependent Territory; McDonald's would open up a restaurant in China itself 15 years later.
+
+List of countries with McDonald's restaurants - Wikipedia
+This is a listing of countries with McDonald's restaurants. McDonald's is the largest chain of fast ... 54, (source: McDonald's 2013), 84,925, Third country (not U.S. possession) and first outlet outside ... 57, (source: McDonald's 2013), 71,192, See McDonald's Panama ..... McDonald's is trying to re-enter the Bolivian market.
+
+Where In The World Are There No McDonald's? : The Salt : NPR
+Jun 27, 2018 - McDonald's may have a global presence, but that doesn't mean that it has reached every country in the world.
+
+Answers      Exact    Split    NoAnsExact    NoAnsSplit
+---------  -------  -------  ------------  ------------
+Bolivia         12        6             0             0
+Panama           3        2             0             0
+Venezuela        4        0             0             0
+
+
+>>> gbot.run()
+Capturing...
+OCR...
+10.
+Which of these cartoons are
+most appropriate for children?
+
+Rick and Morty
+BoJack Horseman
+
+Adventure Time
+ Which of these cartoons are most appropriate for children?
+Rick and Morty
+BoJack Horseman
+Adventure Time
+
+
+Google:  Which of these cartoons are most appropriate for children? Rick and Morty BoJack Horseman Adventure Time
+
+Trimmed:
+Rick and Morty
+BoJack Horseman
+Adventure Time
+
+Google:  Which of these cartoons are most appropriate for children
+
+Trimmed:
+Rick and Morty
+BoJack Horseman
+Adventure Time
+
+
+
+
+
+16 Cartoons For Adults To Watch - BuzzFeed
+Nov 24, 2018 - 16 Hilarious Cartoons That Adults Should Be Watching ... The adventures of Morty and his scientist granddad Rick will keep you hooked and ...
+
+English Kids Cartoons that are Educational and Fun - Bilingual Kidspot
+There have been many fantastic animated TV shows throughout the history, but which ones are the best? Some people think that cartoons are just for children, ...
+
+Adult cartoons Rick and Morty, BoJack Horseman set the pace for live ...
+Oct 2, 2017 - Adult cartoons Rick and Morty, BoJack Horseman set the pace for live-action TV ... It's weird, in 2017, to think there was a Time when cartoons were for children. ... BoJack Horseman is one of the best animated shows on TV. ... fever dream, the adventures of alcoholic inter-dimensional uber-genius Rick and ...
+
+25 best animated movies for kids - Today's Parent
+Dec 29, 2016 - But with the huge variety of kids cartoons available these days, it is hard to decide which are the best for your child to watch. There are some ...
+
+15 Shows Like Rick and Morty To Hold You Over Until It's Back - Ranker
+List Rules Vote up the shows that will help tide you over until Rick and Morty ... #7 on The Best Children's Cartoons with Adult Humor ... Futurama centers around the adventures Fry, Leela, Bender, and the rest of ... #8 on The Best Cartoons of All Time ... BoJack Horseman is listed (or ranked) 4 on the list Rick and Morty Is ...
+
+10 Cartoons That Aren't Really Appropriate For Children | Thought ...
+Jul 12, 2018 - This vibrant Disney/Pixar movie is inspired by Mexico's Day of the Dead and it won not one but two Oscars, for Best Animated Film and Best ...
+
+From "Rick and Morty" to "Archer": The best cartoons for adults ... - Quartz
+Jul 24, 2018 - But a new generation of shows in the last decade continue to push the envelope, whether it's the normalized bestiality in BoJack Horseman or ...
+
+The Best Educational Cartoon TV Shows for Kids | WeHaveKids
+Apr 16, 2014 - Here are the top ten cartoons not suited for children. ... everyone along with his best pal, Patrick Star by first saying the words “Hello, customers!
+
+25 Best Adult Cartoons You Should Be Watching - GeeksMate
+Jan 10, 2019 - But, agreed most of the cartoons we loved as a child are dumb, don't kill ... cat is one of the most controversial cartoon shows of all Time. ... Adventure Time. ... BoJack Horseman is a story of once a famous T.V. star who is now ... Rick and Morty is undoubtedly the best cartoon show you can watch right now.
+
+The Best Kid's Cartoons: What Is Your Child Watching? - Care.com
+Jul 19, 2016 - Children like to watch television. Dora, Diego, Wonder Pets, Disney cartoons and more. Parents often think that all animated television shows ...
+
+The 25 Best Adult Cartoon TV Series - IGN
+Mar 25, 2019 - From Rick and Morty to Batman to BoJack Horseman and beyond, here are the ... Not only are there animated shows that both kids and adults can enjoy ... and Morty - or check out our picks below for the 25 best adult cartoon TV series. .... A wonderful, whimsical delight, Adventure Time (See it on Amazon) ...
+
+Best Cartoons for Kids: 11 TV Shows Your Child Will Surely Enjoy
+Not all cartoons are meant for kids. So, how do you decide which ones are okay -- perhaps even good -- for your child to watch? From "Looney Tunes" to ...
+
+TV Shows for Teens Who Like "Rick and Morty" - Common Sense Media
+Shows like Rick and Morty have gained intensely loyal fans with their smart, edgy, and slightly ... And for more animated fun, try our list of the Best Cartoons for Kids or Anime TV for Teens and Tweens. ... Adventure Time ... BoJack Horseman.
+
+The Best Cartoons for Children – You are Mom
+Ahead, we have gathered some of the best cartoons for kids aged five and up that parents will enjoy, too! 11 Best cartoons for kids aged 5 and up. Sesame Street. Screenshot: YouTube. Tayo: the Little Bus. Mister Roger's Neighbourhood. Daniel Tiger's Neighbourhood. Word Girl. Sid the Science Kid. Nutri Ventures.
+
+The 30 Best Animated Shows Since The Simpsons | Vanity Fair
+Aug 30, 2018 - (The best Simpsons bits somehow manage to be all of those things at the ... Studios under the auspices of MTV, Cartoon Network, Nickelodeon, ... Even the stuff ostensibly meant for children has gotten vastly more ..... Rick and Morty showcases the universe-altering adventures of a ... BoJack Horseman.
+
+19 Cartoons Your Child Should Be Watching - Babble
+Animated series and cartoons for children are one of the most popular forms of entertainment. They combine a series of visual elements in which image and ...
+
+The Best Animated Series of All-Time, Ranked — Cartoons, Anime, TV ...
+Nov 20, 2018 - From "The Flintstone" to "BoJack Horseman," these are the best animated ... There are cartoons, anime, short films, short series, short films turned into .... a cop drama following the adventures of a “Guardian” who lives inside of a ... And it would've gotten away with it, too, if it weren't for those meddling kids!
+
+Best Cartoons for Kids - Common Sense Media
+I've said it before and I'll say it again: watching Curious George is like staring at a lava lamp — it soothes the tired parent's soul. George is best for younger kids, ...
+
+Answers            Exact    Split    NoAnsExact    NoAnsSplit
+---------------  -------  -------  ------------  ------------
+Rick and Morty        10       19             0             9
+BoJack Horseman        7        7             0             0
+Adventure Time         3        3             0             0
+
+
+>>>
