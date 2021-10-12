@@ -2,7 +2,7 @@ selenium==3.141.0
 nltk==3.4
 Click==7.0
 googletrans==2.4.0
-opencv_python==4.0.0.21
+opencv_python==4.2.0.32
 tabulate==0.8.3
 underthesea==1.1.15
 requests==2.21.0
